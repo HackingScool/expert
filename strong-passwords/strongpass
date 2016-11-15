@@ -1,0 +1,41 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import sys
+
+def arg_len(arg):
+    return sum([len(a) for a in arg])
+
+def upper_lower(s):
+    s1=""
+    for i in range(0,len(s)):
+        s1 += s[i].upper() if i % 2 == 0 else s[i].lower()
+    return s1
+
+def join_arg(arg):
+    s1=""
+    for i in range(0,len(arg)):
+       s1 += str(i) + arg[i]
+    return s1 + str(i+1) 
+
+def ins_symbols(s):
+    ch="$%/()="
+    s1=""
+    j=0
+    for i in range(0,len(s)):
+        s1 += s[i]
+        if (i+1) % 2 == 0: 
+           s1 += ch[j]
+           j += 1
+           if j == len(ch):
+              j = 0 
+    return s1
+
+if len(sys.argv) > 1:
+   t=0
+   arg = sys.argv[1:]
+   if arg_len(arg) < 9:
+      print "I need at least 9 characters!"
+   else:
+      print ins_symbols(join_arg([upper_lower(x[::-1]) for x in arg]))
+
