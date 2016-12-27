@@ -1,0 +1,49 @@
+#!/usr/bin/python
+
+import os, sys, random
+
+def roll_dice():
+    digits=""
+    for i in range(0,5):
+        digits += str(random.choice(range(1,7)))
+    return digits
+
+def loading_diceware_list():
+    dwl={}
+    dir_path=os.path.dirname(os.path.realpath(__file__))
+    try:
+      with open(dir_path+os.sep+"dicepass.lst") as f:
+           lines = f.readlines()
+           for line in lines:
+               tok = line.strip().split()
+               dwl[tok[0]] = tok[1]
+    except IOError:
+       print "Error reading the Diceware list!"
+       exit(1)
+    return dwl
+
+def generate_passphrase(dwl,nwords):
+    words=[]
+    while len(words) < nwords:
+       rd = roll_dice()
+       word = dwl[rd]
+       if not word in words:
+          words.append(word)
+    return ' '.join(words)
+
+def get_int(n):
+    try:
+      number = int(n)
+    except:
+      number = 6
+    return 6 if number < 6 else number
+ 
+def main():
+    nwords=6
+    if len(sys.argv) >= 2:
+       nwords = get_int(sys.argv[1])
+    dwl = loading_diceware_list()
+    print generate_passphrase(dwl,nwords)
+
+if __name__ == '__main__':
+   main()
