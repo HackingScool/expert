@@ -1,0 +1,664 @@
+
+Public IP:
+158.69.143.98
+System name:
+Linux qosmio-x70 4.4.0-51-generic #72~14.04.1-Ubuntu SMP Thu Nov 24 19:22:30 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+=======================
+Environment:
+LESSOPEN=| /usr/bin/lesspipe %s
+GNOME_KEYRING_PID=5822
+USER=hackingscool
+LANGUAGE=en_US
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+LC_TIME=es_ES.UTF-8
+COMP_WORDBREAKS= 	
+"'><;|&(:
+XDG_SEAT=seat0
+TEXTDOMAIN=im-config
+SESSION=ubuntu
+COMPIZ_CONFIG_PROFILE=ubuntu
+SHLVL=1
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+HOME=/home/hackingscool
+QT4_IM_MODULE=xim
+DESKTOP_SESSION=ubuntu
+GTK_MODULES=overlay-scrollbar:unity-gtk-module
+XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+LC_MONETARY=es_ES.UTF-8
+INSTANCE=
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-VdJCP9o5Kv
+COLORTERM=gnome-terminal
+GNOME_KEYRING_CONTROL=/run/user/1001/keyring-3jIqu7
+QT_QPA_PLATFORMTHEME=appmenu-qt5
+MANDATORY_PATH=/usr/share/gconf/ubuntu.mandatory.path
+IM_CONFIG_PHASE=1
+SESSIONTYPE=gnome-session
+LOGNAME=hackingscool
+GTK_IM_MODULE=ibus
+WINDOWID=77594635
+_=/usr/bin/python
+DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
+XDG_SESSION_ID=c4
+TERM=xterm
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/hackr/dev/Android/Sdk/platform-tools:/home/hackr/dev/Android/Sdk/tools:/home/hackr/dev/android-ndk-r11c:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+SELINUX_INIT=YES
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+SESSION_MANAGER=local/qosmio-x70:@/tmp/.ICE-unix/6002,unix/qosmio-x70:/tmp/.ICE-unix/6002
+GDM_LANG=en_US
+LC_ADDRESS=es_ES.UTF-8
+XDG_MENU_PREFIX=gnome-
+XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+XDG_RUNTIME_DIR=/run/user/1001
+COMPIZ_BIN_PATH=/usr/bin/
+DISPLAY=:1
+LC_TELEPHONE=es_ES.UTF-8
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=Unity
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+XMODIFIERS=@im=ibus
+XAUTHORITY=/home/hackingscool/.Xauthority
+XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/hackingscool
+SSH_AUTH_SOCK=/run/user/1001/keyring-3jIqu7/ssh
+SHELL=/bin/bash
+NODE_PATH=/usr/lib/nodejs:/usr/lib/node_modules:/usr/share/javascript
+LC_NAME=es_ES.UTF-8
+GDMSESSION=ubuntu
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_MEASUREMENT=es_ES.UTF-8
+GPG_AGENT_INFO=/run/user/1001/keyring-3jIqu7/gpg:0:1
+UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1001/5824
+LC_IDENTIFICATION=es_ES.UTF-8
+TEXTDOMAINDIR=/usr/share/locale/
+XDG_VTNR=8
+QT_IM_MODULE=ibus
+PWD=/home/hackingscool
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+CLUTTER_IM_MODULE=xim
+ANDROID_HOME=/home/hackr/dev/Android/Sdk
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
+LC_NUMERIC=es_ES.UTF-8
+LC_PAPER=es_ES.UTF-8
+VTE_VERSION=3409
+JOB=dbus
+NDK_PROJECT_PATH=/home/hackr/ndk-ws
+=======================
+Open ports:
+tcp        0      0 0.0.0.0:4433            0.0.0.0:*               LISTEN      0          11777       -               
+tcp        0      0 127.0.0.1:8307          0.0.0.0:*               LISTEN      0          474         -               
+tcp        0      0 127.0.0.1:5939          0.0.0.0:*               LISTEN      0          16606       -               
+tcp        0      0 127.0.1.1:53            0.0.0.0:*               LISTEN      0          18827       -               
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      0          11636       -               
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      0          20460       -               
+tcp        0      0 0.0.0.0:17500           0.0.0.0:*               LISTEN      1000       96494       -               
+tcp        0      0 127.0.0.1:17600         0.0.0.0:*               LISTEN      1000       22761       -               
+tcp        0      0 127.0.0.1:17603         0.0.0.0:*               LISTEN      1000       22764       -               
+tcp        0      0 0.0.0.0:902             0.0.0.0:*               LISTEN      0          11710       -               
+tcp6       0      0 :::4433                 :::*                    LISTEN      0          11778       -               
+tcp6       0      0 :::22                   :::*                    LISTEN      0          11638       -               
+tcp6       0      0 ::1:631                 :::*                    LISTEN      0          20459       -               
+tcp6       0      0 :::17500                :::*                    LISTEN      1000       96493       -               
+tcp6       0      0 :::902                  :::*                    LISTEN      0          11709       -               
+=======================
+Processes:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  34160  4716 ?        Ss   02:54   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    02:54   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    02:54   0:04 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    02:54   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/3]
+root        25  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/3:0H]
+root        26  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/4]
+root        27  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/4]
+root        28  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/4]
+root        30  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/4:0H]
+root        31  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/5]
+root        32  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/5]
+root        33  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/5]
+root        34  0.0  0.0      0     0 ?        S    02:54   0:00 [kworker/5:0]
+root        35  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/5:0H]
+root        36  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/6]
+root        37  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/6]
+root        38  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/6]
+root        40  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/6:0H]
+root        41  0.0  0.0      0     0 ?        S    02:54   0:00 [watchdog/7]
+root        42  0.0  0.0      0     0 ?        S    02:54   0:00 [migration/7]
+root        43  0.0  0.0      0     0 ?        S    02:54   0:00 [ksoftirqd/7]
+root        45  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/7:0H]
+root        46  0.0  0.0      0     0 ?        S    02:54   0:00 [kdevtmpfs]
+root        47  0.0  0.0      0     0 ?        S<   02:54   0:00 [netns]
+root        48  0.0  0.0      0     0 ?        S<   02:54   0:00 [perf]
+root        49  0.0  0.0      0     0 ?        S    02:54   0:00 [khungtaskd]
+root        50  0.0  0.0      0     0 ?        S<   02:54   0:00 [writeback]
+root        51  0.0  0.0      0     0 ?        SN   02:54   0:00 [ksmd]
+root        52  0.0  0.0      0     0 ?        SN   02:54   0:00 [khugepaged]
+root        53  0.0  0.0      0     0 ?        S<   02:54   0:00 [crypto]
+root        54  0.0  0.0      0     0 ?        S<   02:54   0:00 [kintegrityd]
+root        55  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        56  0.0  0.0      0     0 ?        S<   02:54   0:00 [kblockd]
+root        57  0.0  0.0      0     0 ?        S<   02:54   0:00 [ata_sff]
+root        58  0.0  0.0      0     0 ?        S<   02:54   0:00 [md]
+root        59  0.0  0.0      0     0 ?        S<   02:54   0:00 [devfreq_wq]
+root        63  0.0  0.0      0     0 ?        S    02:54   0:00 [kswapd0]
+root        64  0.0  0.0      0     0 ?        S<   02:54   0:00 [vmstat]
+root        65  0.0  0.0      0     0 ?        S    02:54   0:00 [fsnotify_mark]
+root        66  0.0  0.0      0     0 ?        S    02:54   0:00 [ecryptfs-kthrea]
+root        82  0.0  0.0      0     0 ?        S<   02:54   0:00 [kthrotld]
+root        83  0.0  0.0      0     0 ?        S<   02:54   0:00 [acpi_thermal_pm]
+root        84  0.0  0.0      0     0 ?        S    02:54   0:00 [kworker/7:1]
+root        85  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        86  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        87  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        88  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        89  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        90  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        91  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        92  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        93  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        94  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        95  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        96  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        97  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        98  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root        99  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       100  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       101  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       102  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       103  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       104  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       105  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       106  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       107  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       108  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       113  0.0  0.0      0     0 ?        S<   02:54   0:00 [ipv6_addrconf]
+root       126  0.0  0.0      0     0 ?        S<   02:54   0:00 [deferwq]
+root       127  0.0  0.0      0     0 ?        S<   02:54   0:00 [charger_manager]
+root       184  0.0  0.0      0     0 ?        S<   02:54   0:00 [kpsmoused]
+root       185  0.0  0.0      0     0 ?        S    02:54   0:00 [scsi_eh_0]
+root       186  0.0  0.0      0     0 ?        S<   02:54   0:00 [scsi_tmf_0]
+root       187  0.0  0.0      0     0 ?        S    02:54   0:00 [scsi_eh_1]
+root       188  0.0  0.0      0     0 ?        S<   02:54   0:00 [scsi_tmf_1]
+root       189  0.0  0.0      0     0 ?        S    02:54   0:00 [scsi_eh_2]
+root       190  0.0  0.0      0     0 ?        S<   02:54   0:00 [scsi_tmf_2]
+root       191  0.0  0.0      0     0 ?        S    02:54   0:00 [scsi_eh_3]
+root       192  0.0  0.0      0     0 ?        S<   02:54   0:00 [scsi_tmf_3]
+root       193  0.0  0.0      0     0 ?        S    02:54   0:00 [scsi_eh_4]
+root       194  0.0  0.0      0     0 ?        S<   02:54   0:00 [scsi_tmf_4]
+root       198  0.0  0.0      0     0 ?        S<   02:54   0:00 [rtsx_pci_sdmmc_]
+root       201  0.0  0.0      0     0 ?        S<   02:54   0:00 [kfd_process_wq]
+root       203  0.0  0.0      0     0 ?        S    02:54   0:03 [kworker/2:1]
+root       205  0.0  0.0      0     0 ?        S    02:54   0:00 [kworker/1:1]
+root       206  0.0  0.0      0     0 ?        S<   02:54   0:00 [ttm_swap]
+root       208  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       211  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       221  0.0  0.0      0     0 ?        S<   02:54   0:00 [kdmflush]
+root       222  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       224  0.0  0.0      0     0 ?        S<   02:54   0:00 [kdmflush]
+root       225  0.0  0.0      0     0 ?        S<   02:54   0:00 [bioset]
+root       236  0.0  0.0      0     0 ?        S<   02:54   0:00 [radeon-crtc]
+root       237  0.0  0.0      0     0 ?        S<   02:54   0:00 [radeon-crtc]
+root       238  0.0  0.0      0     0 ?        S<   02:54   0:00 [radeon-crtc]
+root       239  0.0  0.0      0     0 ?        S<   02:54   0:00 [radeon-crtc]
+root       240  0.0  0.0      0     0 ?        S<   02:54   0:00 [radeon-crtc]
+root       241  0.0  0.0      0     0 ?        S<   02:54   0:00 [radeon-crtc]
+root       290  0.0  0.0      0     0 ?        S    02:54   0:00 [jbd2/dm-0-8]
+root       291  0.0  0.0      0     0 ?        S<   02:54   0:00 [ext4-rsv-conver]
+root       324  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/0:1H]
+root       325  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/3:1H]
+root       468  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/2:1H]
+root       475  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/1:1H]
+root       492  0.0  0.0  19612  2056 ?        S    02:54   0:00 upstart-udev-bridge --daemon
+root       497  0.0  0.0  52256  3948 ?        Ss   02:54   0:00 /lib/systemd/systemd-udevd --daemon
+root       513  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/5:1H]
+root       573  0.0  0.0      0     0 ?        S<   02:54   0:00 [edac-poller]
+root       583  0.0  0.0      0     0 ?        S<   02:54   0:00 [kmemstick]
+root       618  0.0  0.0      0     0 ?        S    02:54   0:00 [irq/33-mei_me]
+root       663  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/6:1H]
+root       701  0.0  0.0      0     0 ?        S<   02:54   0:00 [ext4-rsv-conver]
+root       718  0.0  0.0      0     0 ?        S<   02:54   0:00 [kvm-irqfd-clean]
+root       721  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/u17:0]
+root       725  0.0  0.0      0     0 ?        S<   02:54   0:00 [hci0]
+root       726  0.0  0.0      0     0 ?        S<   02:54   0:00 [hci0]
+root       727  0.0  0.0      0     0 ?        S<   02:54   0:00 [cfg80211]
+root       728  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/u17:1]
+root       750  0.0  0.0      0     0 ?        S    02:54   0:01 [irq/36-iwlwifi]
+root       865  0.0  0.0  15396  1864 ?        S    02:54   0:00 upstart-socket-bridge --daemon
+message+   898  0.0  0.0  42020  4948 ?        Ss   02:54   0:02 dbus-daemon --system --fork
+root       937  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/7:1H]
+root       949  0.0  0.0 334448  7628 ?        Ssl  02:54   0:00 /usr/sbin/ModemManager
+root       987  0.0  0.0  43548  3280 ?        Ss   02:54   0:00 /lib/systemd/systemd-logind
+root      1000  0.0  0.0  19300  3668 ?        Ss   02:54   0:00 /usr/sbin/bluetoothd
+root      1010  0.0  0.0  15280   244 ?        S    02:54   0:00 upstart-file-bridge --daemon
+root      1021  0.0  0.0      0     0 ?        S<   02:54   0:00 [krfcommd]
+syslog    1034  0.0  0.0 255844  3156 ?        Ssl  02:54   0:00 rsyslogd
+root      1186  0.0  0.0 345596 10836 ?        Ssl  02:54   0:01 NetworkManager
+root      1213  0.0  0.0 281276  7860 ?        Sl   02:54   0:02 /usr/lib/policykit-1/polkitd --no-debug
+root      1346  0.0  0.0  20016  2076 tty4     Ss+  02:54   0:00 /sbin/getty -8 38400 tty4
+root      1350  0.0  0.0  20016  2080 tty5     Ss+  02:54   0:00 /sbin/getty -8 38400 tty5
+root      1351  0.0  0.0 125608  6976 ?        Ssl  02:54   0:00 thermald --no-daemon --dbus-enable
+root      1358  0.0  0.0  20016  2056 tty2     Ss+  02:54   0:00 /sbin/getty -8 38400 tty2
+root      1360  0.0  0.0  20016  2048 tty3     Ss+  02:54   0:00 /sbin/getty -8 38400 tty3
+root      1369  0.0  0.0  20016  2136 tty6     Ss+  02:54   0:00 /sbin/getty -8 38400 tty6
+root      1419  0.0  0.0  61384  5372 ?        Ss   02:54   0:00 /usr/sbin/sshd -D
+root      1427  0.0  0.0  23656  2220 ?        Ss   02:54   0:00 cron
+root      1429  0.0  0.0  19196  2116 ?        Ss   02:54   0:00 /usr/sbin/irqbalance
+whoopsie  1512  0.0  0.0 361332 11632 ?        Ssl  02:54   0:00 whoopsie
+root      1522  0.0  0.0  75360  5932 ?        Ss   02:54   0:00 /usr/sbin/cups-browsed
+root      1645  0.0  0.0   4372  1592 ?        Ss   02:54   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1649  0.0  0.0  30744  5376 ?        Ss   02:54   0:00 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
+root      1651  0.0  0.0 179760   572 ?        Ssl  02:54   0:00 /usr/lib/vmware/bin/vmware-vmblock-fuse -o subtype=vmware-vmblock,default_permissions,allow_other /var/run/vmblock-fuse
+root      1664  0.0  0.0   6976  1756 ?        Ss   02:54   0:00 /usr/bin/vmnet-bridge -s 6 -d /var/run/vmnet-bridge-0.pid -n 0
+root      1691  0.0  0.0   6948   192 ?        Ss   02:54   0:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet1.pid /dev/vmnet1 vmnet1
+root      1707  0.0  0.0  17104  5632 ?        Ss   02:54   0:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet1/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet1/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet1.pid vmnet1
+root      1710  0.0  0.0   9824  2568 ?        S    02:54   0:00 /usr/bin/vmnet-natd -s 6 -m /etc/vmware/vmnet8/nat.mac -c /etc/vmware/vmnet8/nat/nat.conf
+root      1712  0.0  0.0   6948   192 ?        Ss   02:54   0:00 /usr/bin/vmnet-netifup -s 6 -d /var/run/vmnet-netifup-vmnet8.pid /dev/vmnet8 vmnet8
+root      1727  0.0  0.0  17104  5628 ?        Ss   02:54   0:00 /usr/bin/vmnet-dhcpd -s 6 -cf /etc/vmware/vmnet8/dhcpd/dhcpd.conf -lf /etc/vmware/vmnet8/dhcpd/dhcpd.leases -pf /var/run/vmnet-dhcpd-vmnet8.pid vmnet8
+kernoops  1750  0.0  0.0  37148  2508 ?        Ss   02:54   0:00 /usr/sbin/kerneloops
+root      1767  0.0  0.0  20956   480 ?        Ss   02:54   0:00 /usr/sbin/vmware-authdlauncher
+root      1774  0.0  0.0      0     0 ?        S<   02:54   0:00 [iprt-VBoxWQueue]
+root      1775  0.0  0.0      0     0 ?        S    02:54   0:00 [iprt-VBoxTscThr]
+root      1802  0.0  0.0  22376  2864 ?        Ss   02:54   0:00 /usr/bin/vmware-usbarbitrator
+root      1842  0.2  0.1 556668 22588 ?        Ssl  02:54   0:18 /opt/teamviewer/tv_bin/teamviewerd -f
+root      2111  0.0  0.4 1251732 79972 ?       Sl   02:54   0:01 /usr/lib/vmware/bin/vmware-hostd -a /etc/vmware/hostd/config.xml
+root      2143  0.0  0.0      0     0 ?        S<   02:54   0:00 [kworker/4:1H]
+root      2158  0.0  0.0  20016  2056 tty1     Ss+  02:54   0:00 /sbin/getty -8 38400 tty1
+root      2181  0.0  0.0 278032  6088 ?        SLsl 02:54   0:00 lightdm
+root      2192  1.6  1.2 734112 200808 tty7    Ssl+ 02:54   1:56 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root      2195  0.0  0.0 287484  6660 ?        Sl   02:54   0:00 /usr/lib/accountsservice/accounts-daemon
+root      2236  0.0  0.0      0     0 ?        S    02:54   0:00 [kauditd]
+root      2286  0.0  0.0 174632  6484 ?        Sl   02:54   0:00 lightdm --session-child 12 19
+root      2310  0.0  0.0 239432  7584 ?        Sl   02:54   0:00 /usr/lib/upower/upowerd
+rtkit     2370  0.0  0.0 168916  2472 ?        SNl  02:54   0:00 /usr/lib/rtkit/rtkit-daemon
+colord    2442  0.0  0.0 301600  8784 ?        Sl   02:54   0:00 /usr/lib/colord/colord
+root      2597  0.0  0.0  10232  5260 ?        S    02:54   0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-wlan0.pid -lf /var/lib/NetworkManager/dhclient-3196dec2-5299-4944-86dd-7b3085fb4445-wlan0.lease -cf /var/lib/NetworkManager/dhclient-wlan0.conf wlan0
+nobody    2603  0.0  0.0  35224  3236 ?        S    02:54   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/NetworkManager/dnsmasq.conf --cache-size=0 --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+root      2728  0.0  0.2 734632 40872 ?        Ssl  02:54   0:06 /usr/bin/dockerd --raw-logs
+root      2752  0.0  0.0 661488 15108 ?        Ssl  02:54   0:03 docker-containerd -l unix:///var/run/docker/libcontainerd/docker-containerd.sock --metrics-interval=0 --start-timeout 2m --state-dir /var/run/docker/libcontainerd/containerd --shim docker-containerd-shim --runtime docker-runc
+hackr      2908  0.0  0.0 371320  7776 ?        SLl  02:54   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+hackr      2910  0.0  0.0  40436  4560 ?        Ss   02:54   0:00 init --user
+hackr      2995  0.0  0.0  40188  3520 ?        Ss   02:54   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-zQBBasm3wa
+hackr      3004  0.0  0.0 150188 10448 ?        Ssl  02:54   0:00 mediascanner-service-2.0
+hackr      3008  0.0  0.0  22304  2456 ?        Ss   02:54   0:00 upstart-event-bridge
+hackr      3013  0.0  0.0  78200  7996 ?        Ss   02:54   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+hackr      3028  0.0  0.0  22312   196 ?        S    02:54   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+hackr      3030  0.0  0.0  22312   200 ?        S    02:54   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+hackr      3041  0.0  0.0  30784   288 ?        S    02:54   0:00 upstart-file-bridge --daemon --user
+hackr      3044  0.0  0.0 361572  6688 ?        Ssl  02:54   0:00 /usr/bin/ibus-daemon --daemonize --xim
+hackr      3056  0.0  0.0 196648  7708 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfsd
+hackr      3061  0.0  0.0 345668  7660 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+hackr      3063  0.0  0.0 280892  6516 ?        Sl   02:54   0:00 /usr/lib/ibus/ibus-dconf
+hackr      3065  0.0  0.1 1729688 23780 ?       Sl   02:54   0:00 /usr/lib/ibus/ibus-ui-gtk3
+hackr      3071  0.0  0.0 386920 13972 ?        Sl   02:54   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+hackr      3072  0.0  0.1 1800252 23256 ?       Sl   02:54   0:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+hackr      3099  0.0  0.1 812308 28080 ?        Ssl  02:54   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+hackr      3103  0.0  0.2 712464 34676 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+hackr      3107  0.0  0.0 337612  5764 ?        Ssl  02:54   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+hackr      3110  0.0  0.1 575532 19020 ?        Ssl  02:54   0:00 gnome-session --session=ubuntu
+hackr      3112  0.0  0.2 3055276 39276 ?       Ssl  02:54   0:02 /usr/lib/unity/unity-panel-service
+hackr      3116  0.0  0.0  39264  3528 ?        S    02:54   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+hackr      3123  0.0  0.0 124916  4808 ?        Sl   02:54   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+hackr      3153  0.0  0.0 511304 10480 ?        S<l  02:54   0:02 /usr/bin/pulseaudio --start --log-target=syslog
+hackr      3157  0.0  0.0 178440  4848 ?        Sl   02:54   0:00 /usr/lib/dconf/dconf-service
+hackr      3159  0.0  0.1 1903892 25812 ?       Sl   02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+hackr      3161  0.0  0.0  22312  2444 ?        S    02:54   0:00 syndaemon -i 1.0 -t -K -R
+hackr      3162  0.0  0.0 205156  6396 ?        Sl   02:54   0:00 /usr/lib/ibus/ibus-engine-simple
+hackr      3169  0.0  0.0 335112  4440 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+hackr      3170  0.0  0.0 263668  5656 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+hackr      3172  0.0  0.0 278488  6128 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+hackr      3177  0.0  0.1 1163368 17492 ?       Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+hackr      3179  0.0  0.0 551000  9636 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+hackr      3181  0.0  0.1 446556 22084 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+hackr      3182  0.0  0.0 893760  6936 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+hackr      3206  0.0  0.0 360524  8780 ?        Ssl  02:54   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+hackr      3234  0.6  0.7 3884800 114848 ?      Sl   02:54   0:46 compiz
+hackr      3248  0.0  0.1 340388 17736 ?        Sl   02:54   0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+hackr      3250  0.0  0.1 767780 21036 ?        Sl   02:54   0:00 /usr/lib/evolution/evolution-source-registry
+hackr      3265  0.0  0.2 2399224 48548 ?       Sl   02:54   0:02 nautilus -n
+hackr      3268  0.0  0.1 477048 17360 ?        Sl   02:54   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+hackr      3269  0.0  0.2 450264 34660 ?        Sl   02:54   0:02 /usr/bin/python3 /usr/bin/indicator-cpufreq
+hackr      3271  0.0  0.1 3093416 30752 ?       Sl   02:54   0:02 nm-applet
+hackr      3272  0.0  0.1 331716 17036 ?        Sl   02:54   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+hackr      3273  0.1  0.0 473180 14892 ?        Sl   02:54   0:13 conky -c /home/hackr/.conkycolors/conkyrc
+hackr      3287  0.0  0.0 298840  8284 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+hackr      3298  0.0  0.0  58156  6288 ?        S    02:54   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+root      3301  0.0  0.0 436960  8008 ?        Sl   02:54   0:00 /usr/lib/udisks2/udisksd --no-debug
+hackr      3311  0.0  0.3 1074548 54508 ?       Sl   02:54   0:00 /usr/lib/evolution/evolution-calendar-factory
+hackr      3322  0.0  0.0 285972  6296 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+hackr      3327  0.0  0.0 212448  5896 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+hackr      3340  0.0  0.0 200284  5632 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+hackr      3359  0.0  0.0 433152  8816 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+hackr      3390  0.0  1.0 5125288 169068 ?      Sl   02:54   0:05 /home/hackr/.dropbox-dist/dropbox-lnx.x86_64-19.4.13/dropbox /newerversion
+hackr      3396  0.0  0.0 270384  4592 ?        Sl   02:54   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+root      3467  0.0  0.0  76860  6504 ?        Ss   02:54   0:00 /usr/sbin/cupsd -f
+hackr      3511  0.0  0.1 455112 19008 ?        Sl   02:55   0:00 telepathy-indicator
+hackr      3517  0.0  0.0 322672 12200 ?        Sl   02:55   0:00 /usr/lib/telepathy/mission-control-5
+hackr      3530  0.0  0.1 516872 16616 ?        Sl   02:55   0:00 zeitgeist-datahub
+hackr      3535  0.0  0.0 348872  7132 ?        Sl   02:55   0:00 /usr/bin/zeitgeist-daemon
+hackr      3541  0.0  0.0 325924 15264 ?        Sl   02:55   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+hackr      3565  0.0  0.0  11416   684 ?        S    02:55   0:00 /bin/cat
+hackr      3578  0.2  0.3 1076140 58628 ?       Sl   02:55   0:17 /usr/lib/virtualbox/VirtualBox
+hackr      3595  0.1  0.0 134912 10972 ?        S    02:55   0:10 /usr/lib/virtualbox/VBoxXPCOMIPCD
+hackr      3600  0.3  0.1 717564 21176 ?        Sl   02:55   0:25 /usr/lib/virtualbox/VBoxSVC --auto-shutdown
+hackr      3684  0.0  0.1 498468 22108 ?        Sl   02:55   0:00 update-notifier
+hackr      3729 83.6 16.7 4988344 2744704 ?     Sl   02:56  94:36 /usr/lib/virtualbox/VirtualBox --comment kali --startvm 78cb6082-058d-4841-97fb-7b8ff2397ee5 --no-startvm-errormsgbox
+hackr      3792  0.0  0.0 377776  7320 ?        Sl   02:56   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+root      4677  0.0  0.0      0     0 ?        S    03:27   0:01 [kworker/3:2]
+root      5356  0.0  0.0      0     0 ?        S    04:03   0:00 [kworker/4:0]
+root      5495  0.0  0.0      0     0 ?        S    04:10   0:01 [kworker/0:0]
+root      5642  1.3  0.9 702072 156180 tty8    Ssl+ 04:18   0:25 /usr/lib/xorg/Xorg -core :1 -seat seat0 -auth /var/run/lightdm/root/:1 -nolisten tcp vt8 -novtswitch
+root      5714  0.0  0.0 174632  6488 ?        Sl   04:18   0:00 lightdm --session-child 13 22
+hacking+  5822  0.0  0.0 370664  7136 ?        Sl   04:18   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+hacking+  5824  0.0  0.0  40432  4656 ?        Ss   04:18   0:00 init --user
+hacking+  5909  0.0  0.0  40148  3556 ?        Ss   04:18   0:00 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-VdJCP9o5Kv
+hacking+  5918  0.0  0.0 150196 10396 ?        Ssl  04:18   0:00 mediascanner-service-2.0
+hacking+  5922  0.0  0.0  22304  2496 ?        Ss   04:18   0:00 upstart-event-bridge
+hacking+  5928  0.0  0.0  78328  9252 ?        Ss   04:18   0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+hacking+  5940  0.0  0.1 537228 20092 ?        Sl   04:18   0:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+hacking+  5945  0.0  0.0 196648  5628 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfsd
+hacking+  5949  0.0  0.0 345668  5592 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1001/gvfs -f -o big_writes
+hacking+  5960  0.0  0.0 361828  8908 ?        Ssl  04:18   0:00 /usr/bin/ibus-daemon --daemonize --xim
+hacking+  5973  0.0  0.0  22312   220 ?        S    04:18   0:00 upstart-dbus-bridge --daemon --session --user --bus-name session
+hacking+  5975  0.0  0.0  30784   288 ?        S    04:18   0:00 upstart-file-bridge --daemon --user
+hacking+  5977  0.0  0.0  22312   216 ?        S    04:18   0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+hacking+  5994  0.0  0.1 811956 27648 ?        Ssl  04:18   0:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+hacking+  5998  0.0  0.2 643524 39784 ?        Ssl  04:18   0:01 /usr/lib/x86_64-linux-gnu/hud/hud-service
+hacking+  6001  0.0  0.0 337600  7804 ?        Ssl  04:18   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+hacking+  6002  0.0  0.1 657652 21352 ?        Ssl  04:18   0:00 gnome-session --session=ubuntu
+hacking+  6007  0.0  0.0  39396  3508 ?        S    04:18   0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+hacking+  6015  0.1  0.1 606924 31520 ?        Ssl  04:18   0:01 /usr/lib/unity/unity-panel-service
+hacking+  6020  0.0  0.0 124916  5056 ?        Sl   04:18   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+hacking+  6030  0.0  0.0 280880  6500 ?        Sl   04:18   0:00 /usr/lib/ibus/ibus-dconf
+hacking+  6031  0.0  0.1 467508 25936 ?        Sl   04:18   0:00 /usr/lib/ibus/ibus-ui-gtk3
+hacking+  6033  0.0  0.0 386912 15948 ?        Sl   04:18   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+hacking+  6050  0.0  0.1 566560 24352 ?        Sl   04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
+hacking+  6052  0.0  0.0 335100  6960 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+hacking+  6053  0.0  0.0 263656  7680 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+hacking+  6055  0.0  0.0 278472  6032 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+hacking+  6057  0.0  0.1 835788 17544 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+hacking+  6060  0.0  0.0 550984  9716 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+hacking+  6068  0.0  0.1 446824 19616 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+hacking+  6080  0.0  0.0 893748  9000 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+hacking+  6083  0.0  0.1 481048 17060 ?        Sl   04:18   0:00 /usr/lib/evolution/evolution-source-registry
+hacking+  6091  0.0  0.0 286792  8844 ?        Ssl  04:18   0:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+hacking+  6122  0.0  0.0 445688 10496 ?        S<l  04:18   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+hacking+  6134  0.0  0.0 178308  4664 ?        Sl   04:18   0:00 /usr/lib/dconf/dconf-service
+hacking+  6137  0.0  0.0  22312  2544 ?        S    04:18   0:00 syndaemon -i 1.0 -t -K -R
+hacking+  6138  0.0  0.0 205156  6404 ?        Sl   04:18   0:00 /usr/lib/ibus/ibus-engine-simple
+hacking+  6148  0.0  0.3 877928 50456 ?        Sl   04:18   0:00 /usr/lib/evolution/evolution-calendar-factory
+hacking+  6168  0.0  0.1 340364 17740 ?        Sl   04:18   0:00 /usr/lib/x86_64-linux-gnu/notify-osd
+hacking+  6174  0.4  0.6 1284384 99220 ?       Sl   04:18   0:09 compiz
+hacking+  6187  0.0  0.2 568892 33908 ?        Sl   04:18   0:00 nm-applet
+hacking+  6189  0.0  0.1 477192 16484 ?        Sl   04:18   0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+hacking+  6190  0.0  0.2 450148 34072 ?        Sl   04:18   0:00 /usr/bin/python3 /usr/bin/indicator-cpufreq
+hacking+  6191  0.0  0.1 331708 16948 ?        Sl   04:18   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+hacking+  6194  0.1  0.3 1066208 52088 ?       Sl   04:18   0:03 nautilus -n
+hacking+  6195  0.1  0.0 473168 14340 ?        Sl   04:18   0:03 conky -c /home/hackingscool/.conkycolors/conkyrc
+hacking+  6215  0.0  0.0 298840  8360 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+hacking+  6237  0.0  0.0 285968  6020 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+hacking+  6243  0.0  0.0 212448  8092 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+hacking+  6247  0.0  0.0 200284  5496 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+hacking+  6256  0.0  0.0  58256  6296 ?        S    04:18   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+hacking+  6261  0.0  0.0 359552  8896 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+hacking+  6272  0.0  0.0 270384  6908 ?        Sl   04:18   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+hacking+  6298  0.0  0.1 455100 18852 ?        Sl   04:18   0:00 telepathy-indicator
+hacking+  6307  0.0  0.0 322784 12372 ?        Sl   04:18   0:00 /usr/lib/telepathy/mission-control-5
+hacking+  6325  0.0  0.0 348872  9200 ?        Sl   04:18   0:00 /usr/bin/zeitgeist-daemon
+hacking+  6331  0.0  0.0 325824 15060 ?        Sl   04:18   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+hacking+  6333  0.0  0.0 442920 14188 ?        Sl   04:18   0:00 zeitgeist-datahub
+hacking+  6337  0.0  0.0  11416   772 ?        S    04:18   0:00 /bin/cat
+hacking+  6357  0.9  0.2 422036 32708 ?        Sl   04:18   0:17 /usr/bin/python /usr/bin/gtk-recordmydesktop
+hacking+  6392  1.2  2.0 1326512 333968 ?      Sl   04:19   0:22 /usr/lib/firefox/firefox
+hacking+  6458  0.8  1.7 1022340 294044 ?      Sl   04:19   0:16 /usr/lib/firefox/plugin-container -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 6392 true tab
+hacking+  6544  0.0  0.1 498408 21636 ?        Sl   04:19   0:00 update-notifier
+hacking+  6588  0.2  0.7 595596 124276 ?       SNl  04:19   0:04 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+hacking+  6646  0.0  0.1 636060 27648 ?        Sl   04:20   0:00 gnome-terminal
+hacking+  6655  0.0  0.0  14824  1868 ?        S    04:20   0:00 gnome-pty-helper
+hacking+  6657  0.0  0.0  28500  7348 pts/13   Ss   04:20   0:00 bash
+hacking+  6676  0.0  0.0 377764  7460 ?        Sl   04:20   0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+hacking+  6803  0.0  0.0 124448  5556 ?        Sl   04:22   0:00 /usr/lib/gvfs/gvfsd-metadata
+lightdm   6902  0.0  0.0  39800  3940 ?        S    04:22   0:00 init --user --startup-event indicator-services-start
+lightdm   6954  0.0  0.0 426696  9084 ?        S<l  04:22   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+lightdm   6999  0.0  0.0 263516  5508 ?        Ssl  04:22   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+lightdm   7008  0.0  0.0 403340 11120 ?        Ssl  04:22   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+root      7122  0.0  0.0      0     0 ?        S    04:23   0:00 [kworker/7:0]
+lightdm   7282  0.0  0.0  39800  4024 ?        S    04:25   0:00 init --user --startup-event indicator-services-start
+lightdm   7372  0.0  0.0 263516  5632 ?        Ssl  04:25   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+lightdm   7381  0.0  0.0 403340  9152 ?        Ssl  04:25   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+root      7746  0.1  0.0      0     0 ?        S    04:27   0:02 [kworker/6:1]
+root      7835  0.0  0.0      0     0 ?        S    04:30   0:00 [kworker/5:1]
+lightdm   8010  0.0  0.0  39800  4020 ?        S    04:33   0:00 init --user --startup-event indicator-services-start
+lightdm   8110  0.0  0.0 403340 11112 ?        Ssl  04:33   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+lightdm   8118  0.0  0.0 263516  7680 ?        Ssl  04:33   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+root      8186  0.0  0.0      0     0 ?        S    04:33   0:00 [kworker/u16:3]
+root      8187  0.0  0.0      0     0 ?        S    04:33   0:00 [kworker/u16:5]
+hacking+  8476  0.0  0.0  55576 15612 pts/13   T    04:35   0:00 python up.py
+hacking+  8481  0.0  0.0   4448   692 pts/13   T    04:35   0:00 sh -c wget https://ipecho.net/plain -O- -q >> Linux_qosmio-x70
+hacking+  8482  0.0  0.0  35224  5088 pts/13   T    04:35   0:00 wget https://ipecho.net/plain -O- -q
+lightdm   8817  0.0  0.0  39800  4008 ?        S    04:38   0:00 init --user --startup-event indicator-services-start
+lightdm   8910  0.0  0.0 263516  7596 ?        Ssl  04:39   0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+lightdm   8923  0.0  0.0 403340 11220 ?        Ssl  04:39   0:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+root      9000  0.0  0.0      0     0 ?        S    04:39   0:00 [kworker/u16:2]
+root      9034  0.0  0.0      0     0 ?        S    04:39   0:00 [kworker/0:2]
+root      9044  0.0  0.0      0     0 ?        S    04:39   0:00 [kworker/1:0]
+root      9072  0.0  0.0      0     0 ?        S    04:40   0:00 [kworker/6:0]
+root      9082  0.0  0.0      0     0 ?        S    04:40   0:00 [kworker/4:1]
+root      9128  0.0  0.0      0     0 ?        S    04:42   0:00 [kworker/2:2]
+root      9165  0.0  0.0      0     0 ?        S    04:43   0:00 [kworker/3:0]
+root      9211  0.0  0.0      0     0 ?        S    04:44   0:00 [kworker/u16:0]
+root      9221  0.0  0.0      0     0 ?        S    04:44   0:00 [kworker/7:2]
+root      9231  0.0  0.0      0     0 ?        S    04:44   0:00 [kworker/0:1]
+root      9305  0.0  0.0      0     0 ?        S    04:46   0:00 [kworker/4:2]
+hackr      9336  0.0  0.1 1730848 24960 ?       Ssl  04:47   0:00 /usr/lib/unity/unity-panel-service --lockscreen-mode
+root      9490  0.0  0.0      0     0 ?        S    04:47   0:00 [kworker/6:2]
+root      9492  0.0  0.0      0     0 ?        S    04:47   0:00 [kworker/u16:1]
+root      9540  0.0  0.0      0     0 ?        S    04:47   0:00 [kworker/2:0]
+hacking+  9559  7.3  0.1 412140 27120 ?        Sl   04:48   0:02 recordmydesktop -o /home/hackingscool/out4.ogv --fps 15 --channels 1 --freq 22050 --v_quality 63 --s_quality 10 --workdir /tmp
+hacking+  9596  0.0  0.0  55576 15508 pts/13   S+   04:49   0:00 python /home/hackingscool/up.py
+hacking+  9618  0.0  0.0   4448   800 pts/13   S+   04:49   0:00 sh -c ps aux >> Linux_qosmio-x70
+hacking+  9619  0.0  0.0  22644  2724 pts/13   R+   04:49   0:00 ps aux
+=======================
+USB devices:
+Bus 002 Device 002: ID 8087:8000 Intel Corp. 
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 004: ID 10f1:1a5b Importek 
+Bus 001 Device 003: ID 8087:07dc Intel Corp. 
+Bus 001 Device 002: ID 8087:8008 Intel Corp. 
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+=======================
+System modules:
+Module                  Size  Used by
+ipt_MASQUERADE         16384  1 
+nf_nat_masquerade_ipv4    16384  1 ipt_MASQUERADE
+xfrm_user              32768  1 
+xfrm_algo              16384  1 xfrm_user
+iptable_nat            16384  1 
+nf_conntrack_ipv4      16384  2 
+nf_defrag_ipv4         16384  1 nf_conntrack_ipv4
+nf_nat_ipv4            16384  1 iptable_nat
+xt_addrtype            16384  2 
+iptable_filter         16384  1 
+ip_tables              24576  2 iptable_filter,iptable_nat
+xt_conntrack           16384  1 
+x_tables               36864  5 ip_tables,ipt_MASQUERADE,xt_conntrack,iptable_filter,xt_addrtype
+nf_nat                 24576  2 nf_nat_ipv4,nf_nat_masquerade_ipv4
+nf_conntrack          102400  5 nf_nat,nf_nat_ipv4,xt_conntrack,nf_nat_masquerade_ipv4,nf_conntrack_ipv4
+br_netfilter           24576  0 
+bridge                126976  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 stp,bridge
+aufs                  212992  0 
+drbg                   28672  1 
+ansi_cprng             16384  0 
+ctr                    16384  2 
+ccm                    20480  2 
+pci_stub               16384  1 
+vboxpci                24576  0 
+vboxnetadp             28672  0 
+vboxnetflt             28672  1 
+vboxdrv               446464  4 vboxnetadp,vboxnetflt,vboxpci
+vmnet                  53248  13 
+vmw_vsock_vmci_transport    28672  0 
+vsock                  36864  1 vmw_vsock_vmci_transport
+vmw_vmci               65536  1 vmw_vsock_vmci_transport
+vmmon                  86016  0 
+arc4                   16384  2 
+cmac                   16384  2 
+bnep                   20480  2 
+rfcomm                 69632  8 
+dm_crypt               28672  0 
+binfmt_misc            20480  1 
+iwlmvm                311296  0 
+mac80211              733184  1 iwlmvm
+nls_iso8859_1          16384  1 
+uvcvideo               90112  0 
+videobuf2_vmalloc      16384  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         28672  1 uvcvideo
+videobuf2_core         36864  2 uvcvideo,videobuf2_v4l2
+v4l2_common            16384  1 videobuf2_v4l2
+videodev              180224  4 uvcvideo,v4l2_common,videobuf2_core,videobuf2_v4l2
+media                  24576  2 uvcvideo,videodev
+snd_hda_codec_hdmi     53248  1 
+snd_hda_codec_realtek    86016  1 
+iwlwifi               196608  1 iwlmvm
+snd_hda_codec_generic    73728  1 snd_hda_codec_realtek
+btusb                  45056  0 
+cfg80211              557056  3 iwlwifi,mac80211,iwlmvm
+intel_rapl             20480  0 
+btrtl                  16384  1 btusb
+btbcm                  16384  1 btusb
+snd_hda_intel          36864  16 
+btintel                16384  1 btusb
+x86_pkg_temp_thermal    16384  0 
+intel_powerclamp       16384  0 
+coretemp               16384  0 
+snd_hda_codec         135168  4 snd_hda_codec_realtek,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_intel
+bluetooth             516096  25 bnep,btbcm,btrtl,btusb,rfcomm,btintel
+kvm_intel             167936  0 
+snd_hda_core           73728  5 snd_hda_codec_realtek,snd_hda_codec_hdmi,snd_hda_codec_generic,snd_hda_codec,snd_hda_intel
+kvm                   536576  1 kvm_intel
+snd_hwdep              16384  1 snd_hda_codec
+snd_pcm               106496  5 snd_hda_codec_hdmi,snd_hda_codec,snd_hda_intel,snd_hda_core
+snd_seq_midi           16384  0 
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            32768  1 snd_seq_midi
+snd_seq                69632  2 snd_seq_midi_event,snd_seq_midi
+snd_seq_device         16384  3 snd_seq,snd_rawmidi,snd_seq_midi
+snd_timer              32768  2 snd_pcm,snd_seq
+snd                    81920  42 snd_hda_codec_realtek,snd_hwdep,snd_timer,snd_hda_codec_hdmi,snd_pcm,snd_seq,snd_rawmidi,snd_hda_codec_generic,snd_hda_codec,snd_hda_intel,snd_seq_device
+irqbypass              16384  1 kvm
+crct10dif_pclmul       16384  0 
+crc32_pclmul           16384  0 
+mei_me                 36864  0 
+rtsx_pci_ms            20480  0 
+ghash_clmulni_intel    16384  0 
+memstick               20480  1 rtsx_pci_ms
+mei                    98304  1 mei_me
+ie31200_edac           16384  0 
+aesni_intel           167936  6 
+edac_core              53248  1 ie31200_edac
+toshiba_acpi           40960  0 
+lpc_ich                24576  0 
+soundcore              16384  1 snd
+shpchp                 36864  0 
+sparse_keymap          16384  1 toshiba_acpi
+joydev                 20480  0 
+input_leds             16384  0 
+aes_x86_64             20480  1 aesni_intel
+serio_raw              16384  0 
+lrw                    16384  1 aesni_intel
+gf128mul               16384  1 lrw
+glue_helper            16384  1 aesni_intel
+ablk_helper            16384  1 aesni_intel
+cryptd                 20480  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+toshiba_bluetooth      16384  0 
+parport_pc             36864  0 
+ppdev                  20480  0 
+soc_button_array       16384  0 
+mac_hid                16384  0 
+lp                     20480  0 
+parport                49152  3 lp,ppdev,parport_pc
+amdkfd                131072  1 
+amd_iommu_v2           20480  1 amdkfd
+radeon               1503232  2 
+i915                 1208320  6 
+rtsx_pci_sdmmc         24576  0 
+ttm                    94208  1 radeon
+i2c_algo_bit           16384  2 i915,radeon
+drm_kms_helper        151552  2 i915,radeon
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+fb_sys_fops            16384  1 drm_kms_helper
+drm                   360448  11 ttm,i915,drm_kms_helper,radeon
+psmouse               126976  0 
+ahci                   36864  3 
+r8169                  81920  0 
+libahci                32768  1 ahci
+rtsx_pci               53248  2 rtsx_pci_ms,rtsx_pci_sdmmc
+mii                    16384  1 r8169
+wmi                    20480  1 toshiba_acpi
+video                  40960  2 i915,toshiba_acpi
+fjes                   28672  0 
+=======================
+PCI devices:
+00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller (rev 06)
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller (rev 06)
+00:02.0 VGA compatible controller: Intel Corporation 4th Gen Core Processor Integrated Graphics Controller (rev 06)
+00:03.0 Audio device: Intel Corporation Xeon E3-1200 v3/4th Gen Core Processor HD Audio Controller (rev 06)
+00:14.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB xHCI (rev 05)
+00:16.0 Communication controller: Intel Corporation 8 Series/C220 Series Chipset Family MEI Controller #1 (rev 04)
+00:1a.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #2 (rev 05)
+00:1b.0 Audio device: Intel Corporation 8 Series/C220 Series Chipset High Definition Audio Controller (rev 05)
+00:1c.0 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #1 (rev d5)
+00:1c.1 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #2 (rev d5)
+00:1c.2 PCI bridge: Intel Corporation 8 Series/C220 Series Chipset Family PCI Express Root Port #3 (rev d5)
+00:1d.0 USB controller: Intel Corporation 8 Series/C220 Series Chipset Family USB EHCI #1 (rev 05)
+00:1f.0 ISA bridge: Intel Corporation HM86 Express LPC Controller (rev 05)
+00:1f.2 SATA controller: Intel Corporation 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] (rev 05)
+00:1f.3 SMBus: Intel Corporation 8 Series/C220 Series Chipset Family SMBus Controller (rev 05)
+01:00.0 Display controller: Advanced Micro Devices, Inc. [AMD/ATI] Venus PRO [Radeon HD 8850M / R9 M265X] (rev ff)
+07:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller (rev 0c)
+08:00.0 Network controller: Intel Corporation Wireless 3160 (rev cb)
+09:00.0 Unassigned class [ff00]: Realtek Semiconductor Co., Ltd. RTS5249 PCI Express Card Reader (rev 01)
+=======================
+CPU:
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 60
+Stepping:              3
+CPU MHz:               2836.640
+BogoMIPS:              5187.55
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              6144K
+NUMA node0 CPU(s):     0-7
+=======================

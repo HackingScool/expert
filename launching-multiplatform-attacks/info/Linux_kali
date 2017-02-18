@@ -1,0 +1,390 @@
+
+Public IP:
+158.69.143.98
+System name:
+Linux kali 4.6.0-kali1-amd64 #1 SMP Debian 4.6.4-1kali1 (2016-07-21) x86_64 GNU/Linux
+=======================
+Environment:
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+USER=root
+XDG_SEAT=seat0
+SSH_AGENT_PID=1418
+XDG_SESSION_TYPE=x11
+SHLVL=1
+HOME=/root
+OLDPWD=/var/www
+DESKTOP_SESSION=default
+GTK_MODULES=gail:atk-bridge
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON=1
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+COLORTERM=truecolor
+QT_QPA_PLATFORMTHEME=qgnomeplatform
+LOGNAME=root
+WINDOWID=27263326
+_=/usr/bin/python
+USERNAME=root
+XDG_SESSION_ID=2
+TERM=xterm-256color
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+WINDOWPATH=2
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+GDM_LANG=en_US.UTF-8
+SESSION_MANAGER=local/kali:@/tmp/.ICE-unix/1295,unix/kali:/tmp/.ICE-unix/1295
+XDG_MENU_PREFIX=gnome-
+XDG_RUNTIME_DIR=/run/user/0
+DISPLAY=:0
+LANG=en_US.UTF-8
+XDG_CURRENT_DESKTOP=GNOME
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_SESSION_DESKTOP=default
+XAUTHORITY=/run/user/0/gdm/Xauthority
+SSH_AUTH_SOCK=/run/user/0/keyring/ssh
+SHELL=/bin/bash
+QT_ACCESSIBILITY=1
+GDMSESSION=default
+GJS_DEBUG_OUTPUT=stderr
+GPG_AGENT_INFO=/run/user/0/gnupg/S.gpg-agent:0:1
+XDG_VTNR=2
+PWD=/var/www/html
+XDG_DATA_DIRS=/usr/share/gnome:/usr/local/share/:/usr/share/
+VTE_VERSION=4402
+=======================
+Open ports:
+tcp        0      0 127.0.0.1:8118          0.0.0.0:*               LISTEN      138        15103      870/privoxy         
+tcp        0      0 127.0.0.1:9050          0.0.0.0:*               LISTEN      0          15653      908/tor             
+tcp        0      0 0.0.0.0:8000            0.0.0.0:*               LISTEN      0          22450      2031/python         
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      0          11550      523/rpcbind         
+tcp        0      0 127.0.0.1:9040          0.0.0.0:*               LISTEN      0          15655      908/tor             
+tcp6       0      0 ::1:8118                :::*                    LISTEN      138        15104      870/privoxy         
+tcp6       0      0 :::111                  :::*                    LISTEN      0          11553      523/rpcbind         
+tcp6       0      0 :::80                   :::*                    LISTEN      0          23184      2437/apache2        
+=======================
+Processes:
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 136884  6872 ?        Ss   02:56   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    02:56   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    02:56   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    02:56   0:01 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    02:56   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    02:56   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    02:56   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    02:56   0:00 [cpuhp/0]
+root        12  0.0  0.0      0     0 ?        S    02:56   0:00 [cpuhp/1]
+root        13  0.0  0.0      0     0 ?        S    02:56   0:00 [watchdog/1]
+root        14  0.0  0.0      0     0 ?        S    02:56   0:00 [migration/1]
+root        15  0.0  0.0      0     0 ?        S    02:56   0:00 [ksoftirqd/1]
+root        16  0.0  0.0      0     0 ?        S    02:56   0:00 [kworker/1:0]
+root        17  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/1:0H]
+root        18  0.0  0.0      0     0 ?        S    02:56   0:00 [cpuhp/2]
+root        19  0.0  0.0      0     0 ?        S    02:56   0:00 [watchdog/2]
+root        20  0.0  0.0      0     0 ?        S    02:56   0:00 [migration/2]
+root        21  0.0  0.0      0     0 ?        S    02:56   0:00 [ksoftirqd/2]
+root        23  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/2:0H]
+root        24  0.0  0.0      0     0 ?        S    02:56   0:00 [cpuhp/3]
+root        25  0.0  0.0      0     0 ?        S    02:56   0:00 [watchdog/3]
+root        26  0.0  0.0      0     0 ?        S    02:56   0:00 [migration/3]
+root        27  0.0  0.0      0     0 ?        S    02:56   0:00 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    02:56   0:00 [kworker/3:0]
+root        29  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/3:0H]
+root        30  0.0  0.0      0     0 ?        S    02:56   0:00 [kdevtmpfs]
+root        31  0.0  0.0      0     0 ?        S<   02:56   0:00 [netns]
+root        32  0.0  0.0      0     0 ?        S    02:56   0:00 [khungtaskd]
+root        33  0.0  0.0      0     0 ?        S    02:56   0:00 [oom_reaper]
+root        34  0.0  0.0      0     0 ?        S<   02:56   0:00 [writeback]
+root        35  0.0  0.0      0     0 ?        S    02:56   0:00 [kcompactd0]
+root        37  0.0  0.0      0     0 ?        SN   02:56   0:00 [ksmd]
+root        38  0.0  0.0      0     0 ?        SN   02:56   0:00 [khugepaged]
+root        39  0.0  0.0      0     0 ?        S<   02:56   0:00 [crypto]
+root        40  0.0  0.0      0     0 ?        S<   02:56   0:00 [kintegrityd]
+root        41  0.0  0.0      0     0 ?        S<   02:56   0:00 [bioset]
+root        42  0.0  0.0      0     0 ?        S<   02:56   0:00 [kblockd]
+root        43  0.0  0.0      0     0 ?        S<   02:56   0:00 [devfreq_wq]
+root        44  0.0  0.0      0     0 ?        S<   02:56   0:00 [watchdogd]
+root        45  0.0  0.0      0     0 ?        S    02:56   0:00 [kswapd0]
+root        46  0.0  0.0      0     0 ?        S<   02:56   0:00 [vmstat]
+root        59  0.0  0.0      0     0 ?        S<   02:56   0:00 [kthrotld]
+root        60  0.0  0.0      0     0 ?        S<   02:56   0:00 [ipv6_addrconf]
+root        66  0.0  0.0      0     0 ?        S<   02:56   0:00 [deferwq]
+root       111  0.0  0.0      0     0 ?        S<   02:56   0:00 [kpsmoused]
+root       113  0.0  0.0      0     0 ?        S<   02:56   0:00 [ata_sff]
+root       183  0.0  0.0      0     0 ?        S    02:56   0:00 [scsi_eh_0]
+root       184  0.0  0.0      0     0 ?        S<   02:56   0:00 [scsi_tmf_0]
+root       185  0.0  0.0      0     0 ?        S    02:56   0:00 [scsi_eh_1]
+root       186  0.0  0.0      0     0 ?        S<   02:56   0:00 [scsi_tmf_1]
+root       187  0.0  0.0      0     0 ?        S    02:56   0:00 [kworker/u8:3]
+root       188  0.0  0.0      0     0 ?        S    02:56   0:00 [scsi_eh_2]
+root       189  0.0  0.0      0     0 ?        S<   02:56   0:00 [scsi_tmf_2]
+root       192  0.0  0.0      0     0 ?        S<   02:56   0:00 [bioset]
+root       193  0.0  0.0      0     0 ?        S<   02:56   0:00 [bioset]
+root       196  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/1:1H]
+root       198  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/0:1H]
+root       201  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/2:1H]
+root       205  0.0  0.0      0     0 ?        S<   02:56   0:00 [kdmflush]
+root       206  0.0  0.0      0     0 ?        S<   02:56   0:00 [bioset]
+root       209  0.0  0.0      0     0 ?        S<   02:56   0:00 [kdmflush]
+root       211  0.0  0.0      0     0 ?        S<   02:56   0:00 [bioset]
+root       214  0.0  0.0      0     0 ?        S<   02:56   0:00 [kworker/3:1H]
+root       250  0.0  0.0      0     0 ?        S    02:56   0:00 [jbd2/dm-0-8]
+root       251  0.0  0.0      0     0 ?        S<   02:56   0:00 [ext4-rsv-conver]
+root       301  0.0  0.0  45236  6400 ?        Ss   02:56   0:00 /lib/systemd/systemd-journald
+root       305  0.0  0.0      0     0 ?        S    02:56   0:00 [kauditd]
+root       313  0.0  0.0  45124  4440 ?        Ss   02:56   0:00 /lib/systemd/systemd-udevd
+root       334  0.0  0.0 107264  1696 ?        Ss   02:56   0:00 /sbin/lvmetad -f
+root       378  0.0  0.0      0     0 ?        S<   02:56   0:00 [iprt-VBoxWQueue]
+root       388  0.0  0.0      0     0 ?        S<   02:56   0:00 [ttm_swap]
+root       508  0.0  0.0      0     0 ?        S<   02:56   0:00 [ext4-rsv-conver]
+root       523  0.0  0.0  47728  3392 ?        Ss   02:56   0:00 /sbin/rpcbind -f -w
+root       539  0.0  0.0 258296  3148 ?        Ssl  02:56   0:00 /usr/sbin/rsyslogd -n
+root       543  0.0  0.0  44308  4688 ?        Ss   02:56   0:00 /lib/systemd/systemd-logind
+message+   544  0.0  0.0  44516  5084 ?        Ss   02:56   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       578  0.0  0.0  29592  2796 ?        Ss   02:56   0:00 /usr/sbin/cron -f
+root       586  0.0  0.2 550600 17280 ?        Ssl  02:56   0:00 /usr/sbin/NetworkManager --no-daemon
+root       589  0.0  0.1 420332  9268 ?        Ssl  02:56   0:00 /usr/sbin/ModemManager
+root       590  0.0  0.0 281408  6192 ?        Ssl  02:56   0:00 /usr/lib/accountsservice/accounts-daemon
+root       645  0.0  0.0  19304   236 ?        Ss   02:56   0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       663  0.0  0.1 285964  8388 ?        Ssl  02:56   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       672  0.0  0.0 254408  2564 ?        Sl   02:56   0:01 /usr/sbin/VBoxService
+privoxy    870  0.0  0.0  22188  2672 ?        Ss   02:56   0:00 /usr/sbin/privoxy --pidfile /var/run/privoxy.pid --user privoxy /etc/privoxy/config
+root       889  0.0  0.0 291388  7560 ?        Ssl  02:56   0:00 /usr/sbin/gdm3
+root       894  0.0  0.0  20472  4372 ?        S    02:56   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-eth0.pid -lf /var/lib/NetworkManager/dhclient-75342d2a-91c5-4859-8798-f1f5d297dc7b-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0
+root       898  0.0  0.0 237600  7560 ?        Sl   02:56   0:00 gdm-session-worker [pam/gdm-launch-environment]
+debian-+   908  0.0  0.5  87904 42048 ?        Ss   02:56   0:06 /usr/bin/tor --defaults-torrc /usr/share/tor/tor-service-defaults-torrc -f /etc/tor/torrc --RunAsDaemon 0
+Debian-+   910  0.0  0.0  62700  6480 ?        Ss   02:56   0:00 /lib/systemd/systemd --user
+Debian-+   911  0.0  0.0  80448  1868 ?        S    02:56   0:00 (sd-pam)
+Debian-+   916  0.0  0.0 188840  5168 tty1     Ssl+ 02:56   0:00 /usr/lib/gdm3/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+Debian-+   918  0.0  0.0  43080  3948 ?        Ss   02:56   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation
+Debian-+   920  0.0  0.1 615748 12024 tty1     Sl+  02:56   0:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+Debian-+   975  0.0  1.8 1794328 154600 tty1   Sl+  02:56   0:05 /usr/bin/gnome-shell
+root      1151  0.0  0.1 357380 10756 ?        Ssl  02:56   0:00 /usr/lib/upower/upowerd
+Debian-+  1168  0.0  0.3 229488 31352 tty1     Sl+  02:56   0:00 /usr/bin/Xwayland :1024 -rootless -noreset -listen 4 -listen 5 -displayfd 6
+Debian-+  1176  0.0  0.0 346636  5808 ?        Ssl  02:56   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+Debian-+  1181  0.0  0.0  42860  3440 ?        S    02:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+Debian-+  1183  0.0  0.0 216028  5484 ?        Sl   02:56   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+Debian-+  1189  0.0  0.1 436532 10636 ?        S<l  02:56   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1190  0.0  0.0 183620  2868 ?        SNsl 02:56   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1195  0.0  0.0  31880  4076 ?        Ss   02:56   0:00 /usr/lib/bluetooth/bluetoothd
+root      1209  0.0  0.1 316344 11636 ?        Ssl  02:56   0:00 /usr/lib/packagekit/packagekitd
+Debian-+  1210  0.0  0.6 1075824 50780 tty1    Sl+  02:56   0:00 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+root      1214  0.0  0.0  44092  4968 ?        Ss   02:56   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+colord    1229  0.0  0.1 311248 13276 ?        Ssl  02:56   0:00 /usr/lib/colord/colord
+root      1256  0.0  0.0 241724  7808 ?        Sl   02:56   0:00 gdm-session-worker [pam/gdm-password]
+root      1259  0.0  0.0  54276  6196 ?        Ss   02:56   0:00 /lib/systemd/systemd --user
+root      1260  0.0  0.0  80448  1868 ?        S    02:56   0:00 (sd-pam)
+root      1265  0.0  0.1 442880 12412 ?        S<sl 02:56   0:00 /usr/bin/pulseaudio --daemonize=no
+root      1266  0.0  0.0  43724  4604 ?        Ss   02:56   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation
+root      1271  0.0  0.0 212900  6440 ?        Sl   02:56   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+root      1274  0.0  0.0 198932  5180 tty2     Ssl+ 02:56   0:00 /usr/lib/gdm3/gdm-x-session --run-script default
+root      1276  3.7  1.5 380620 124908 tty2    Rl+  02:56   4:45 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/0/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+root      1295  0.0  0.1 624340 12540 tty2     Sl+  02:56   0:00 /usr/lib/gnome-session/gnome-session-binary
+root      1348  0.0  0.0 187384  4856 ?        Sl   02:56   0:00 /usr/lib/dconf/dconf-service
+root      1381  0.0  0.0 129184   464 ?        S    02:56   0:00 /usr/bin/VBoxClient --clipboard
+root      1382  0.0  0.0 132040  4532 ?        Sl   02:56   0:00 /usr/bin/VBoxClient --clipboard
+root      1394  0.0  0.0 129184   468 ?        S    02:56   0:00 /usr/bin/VBoxClient --display
+root      1395  0.0  0.0 129320  2696 ?        S    02:56   0:00 /usr/bin/VBoxClient --display
+root      1400  0.0  0.0 129184   468 ?        S    02:56   0:00 /usr/bin/VBoxClient --seamless
+root      1402  0.0  0.0 129836  2124 ?        Sl   02:56   0:00 /usr/bin/VBoxClient --seamless
+root      1406  0.0  0.0 129184   464 ?        S    02:56   0:00 /usr/bin/VBoxClient --draganddrop
+root      1407  0.1  0.0 130352  2128 ?        Sl   02:56   0:14 /usr/bin/VBoxClient --draganddrop
+root      1418  0.0  0.0  11084   332 ?        Ss   02:56   0:00 /usr/bin/ssh-agent x-session-manager
+root      1429  0.0  0.0 346648  5744 ?        Ssl  02:56   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+root      1434  0.0  0.0  42860  3364 ?        S    02:56   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+root      1436  0.0  0.0 215920  6764 ?        Sl   02:56   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+root      1455 62.0  5.9 2686332 483472 tty2   Rl+  02:56  77:40 /usr/bin/gnome-shell
+root      1462  0.0  0.0 284244  6392 ?        Ssl  02:56   0:00 /usr/lib/gvfs/gvfsd
+root      1467  0.0  0.0 417672  5384 ?        Sl   02:56   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/0/gvfs -f -o big_writes
+root      1487  0.0  0.1 614800 14692 ?        Sl   02:56   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+root      1491  0.0  0.2 1022804 20348 ?       Ssl  02:56   0:00 /usr/lib/evolution/evolution-source-registry
+root      1500  0.0  0.3 751828 30948 ?        Sl   02:56   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+root      1505  0.0  0.1 459216 10516 ?        Ssl  02:56   0:00 /usr/lib/telepathy/mission-control-5
+root      1506  0.0  0.1 500580 10144 ?        Ssl  02:56   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1515  0.0  0.0 295688  7076 ?        Sl   02:56   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+root      1523  0.0  0.0 373388  7336 ?        Ssl  02:56   0:00 /usr/lib/udisks2/udisksd --no-debug
+root      1538  0.0  0.0 269420  5668 ?        Ssl  02:56   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+root      1542  0.0  0.0 269200  4332 ?        Ssl  02:56   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+root      1546  0.0  0.1 420296 10104 ?        Ssl  02:56   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+root      1551  0.0  0.0 281388  5132 ?        Ssl  02:56   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+root      1556  0.0  0.4 1138896 36536 tty2    Sl+  02:56   0:00 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+root      1575  0.1  0.6 1083508 49680 tty2    Sl+  02:56   0:12 nautilus -n
+root      1579  0.0  0.1 490372 11540 tty2     Sl+  02:56   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+root      1581  0.0  0.2 512040 19184 tty2     SNl+ 02:56   0:06 /usr/lib/tracker/tracker-miner-fs
+root      1612  0.0  0.3 1520716 28032 tty2    SNl+ 02:56   0:03 /usr/lib/tracker/tracker-extract
+root      1617  0.0  0.4 455856 36976 ?        Sl   02:56   0:00 /usr/lib/tracker/tracker-store
+root      1618  0.0  0.1 661856 12348 tty2     SNl+ 02:56   0:00 /usr/lib/tracker/tracker-miner-apps
+root      1622  0.0  0.1 421480 12408 tty2     SNl+ 02:56   0:00 /usr/lib/tracker/tracker-miner-user-guides
+root      1647  0.0  0.0 424716  7892 ?        Sl   02:56   0:00 /usr/bin/zeitgeist-daemon
+root      1654  0.0  0.1 328164 14916 ?        Sl   02:56   0:00 /usr/lib/zeitgeist/zeitgeist-fts
+root      1656  0.0  0.1 502996 13744 ?        Sl   02:56   0:00 zeitgeist-datahub
+root      1679  0.0  0.0 360384  6804 ?        Sl   02:56   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+root      1695  0.0  0.3 823764 30344 ?        Ssl  02:56   0:00 /usr/lib/evolution/evolution-calendar-factory
+root      1719  0.0  0.2 808976 22684 ?        Sl   02:56   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1695x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1695/2
+root      1735  0.0  0.2 776580 20056 ?        Sl   02:56   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1695x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1695/3
+root      1736  0.0  0.2 701576 20896 ?        Ssl  02:56   0:00 /usr/lib/evolution/evolution-addressbook-factory
+root      1754  0.0  0.2 864676 20692 ?        Sl   02:56   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1736x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1736/2
+root      1766  0.0  0.0 193500  5576 ?        Ssl  02:56   0:00 /usr/lib/gvfs/gvfsd-metadata
+root      1784  0.0  0.0 362508  6964 ?        Sl   02:57   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+root      1801  0.0  0.0 369384  6760 ?        Sl   02:57   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+root      1984  0.0  0.0      0     0 ?        S    03:01   0:00 [kworker/1:1]
+root      2013  0.0  0.0  68792  5372 ?        S    03:01   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+root      2017  0.0  0.4 635664 34832 ?        Ssl  03:01   0:03 /usr/lib/gnome-terminal/gnome-terminal-server
+root      2023  0.0  0.0  21428  5444 pts/0    Ss   03:01   0:00 bash
+root      2031  0.0  0.1  38440 12916 pts/0    S+   03:02   0:01 python -m SimpleHTTPServer
+root      2164  0.0  0.0      0     0 ?        S    03:11   0:02 [kworker/3:1]
+root      2289  0.6  0.9 847808 76204 ?        Sl   03:15   0:38 /usr/bin/gedit --gapplication-service
+root      2296  1.4  3.3 1403072 271540 tty2   Sl+  03:15   1:32 firefox-esr
+root      2390  0.0  0.0  21428  5324 pts/1    Ss   03:16   0:00 bash
+root      2437  0.0  0.2 283088 24252 ?        Ss   03:16   0:00 /usr/sbin/apache2 -k start
+www-data  2438  0.0  0.1 283032  8452 ?        S    03:16   0:00 /usr/sbin/apache2 -k start
+www-data  2439  0.0  0.1 283356  9508 ?        S    03:16   0:00 /usr/sbin/apache2 -k start
+www-data  2440  0.0  0.1 283356 12444 ?        S    03:16   0:00 /usr/sbin/apache2 -k start
+www-data  2441  0.0  0.1 283356 12444 ?        S    03:16   0:00 /usr/sbin/apache2 -k start
+www-data  2442  0.0  0.1 283356 12448 ?        S    03:16   0:00 /usr/sbin/apache2 -k start
+www-data  2443  0.0  0.1 283356 12956 ?        S    03:16   0:00 /usr/sbin/apache2 -k start
+www-data  2453  0.0  0.1 283356 12280 ?        S    03:18   0:00 /usr/sbin/apache2 -k start
+root      2633  0.0  0.0      0     0 ?        S    03:46   0:00 [kworker/2:1]
+root      3102  0.0  0.0      0     0 ?        S    04:23   0:00 [kworker/0:2]
+root      3205  0.0  0.3  65436 27628 pts/1    T    04:31   0:00 python /root/up.py
+root      3209  0.0  0.0   4288   704 pts/1    T    04:31   0:00 sh -c wget https://ipecho.net/plain -O- -q >> Linux_kali
+root      3210  0.0  0.1  92000 10972 pts/1    T    04:31   0:00 wget https://ipecho.net/plain -O- -q
+root      3293  0.0  0.0      0     0 ?        S    04:39   0:00 [kworker/0:0]
+root      3304  0.0  0.3  65436 27768 pts/1    T    04:40   0:00 python /root/up.py
+root      3308  0.0  0.0   4288   764 pts/1    T    04:40   0:00 sh -c wget https://ipecho.net/plain -O- -q >> Linux_kali
+root      3309  0.0  0.1  92000 11184 pts/1    T    04:40   0:00 wget https://ipecho.net/plain -O- -q
+root      3577  0.0  0.0      0     0 ?        S    04:55   0:00 [kworker/u8:0]
+root      3579  0.0  0.0      0     0 ?        S    04:56   0:00 [kworker/2:0]
+root      3833  0.0  0.0      0     0 ?        S    05:01   0:00 [kworker/0:1]
+root      3838  0.0  0.0      0     0 ?        S    05:01   0:00 [kworker/2:2]
+root      3843 41.0  0.3  65436 27540 pts/1    S+   05:02   0:00 python /root/up.py
+root      3864  0.0  0.0   4288   720 pts/1    S+   05:02   0:00 sh -c ps aux >> Linux_kali
+root      3865  0.0  0.0  36100  3160 pts/1    R+   05:02   0:00 ps aux
+=======================
+USB devices:
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 002: ID 80ee:0021 VirtualBox USB Tablet
+Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+=======================
+System modules:
+Module                  Size  Used by
+fuse                   98304  3
+bnep                   20480  2
+nfnetlink_queue        20480  0
+nfnetlink_log          20480  0
+nfnetlink              16384  2 nfnetlink_log,nfnetlink_queue
+bluetooth             516096  5 bnep
+rfkill                 24576  4 bluetooth
+vboxsf                 49152  1
+binfmt_misc            20480  1
+joydev                 20480  0
+snd_intel8x0           40960  4
+snd_ac97_codec        126976  1 snd_intel8x0
+evdev                  24576  10
+ppdev                  20480  0
+serio_raw              16384  0
+pcspkr                 16384  0
+snd_pcm               106496  2 snd_ac97_codec,snd_intel8x0
+snd_timer              32768  1 snd_pcm
+i2c_piix4              24576  0
+sg                     32768  0
+acpi_cpufreq           20480  0
+vboxvideo              53248  3
+ttm                    94208  1 vboxvideo
+drm_kms_helper        147456  1 vboxvideo
+drm                   360448  6 ttm,drm_kms_helper,vboxvideo
+snd                    81920  12 snd_ac97_codec,snd_intel8x0,snd_timer,snd_pcm
+soundcore              16384  1 snd
+8250_fintek            16384  0
+ac97_bus               16384  1 snd_ac97_codec
+vboxguest             282624  6 vboxsf,vboxvideo
+tpm_tis                20480  0
+tpm                    45056  1 tpm_tis
+parport_pc             28672  0
+parport                49152  2 ppdev,parport_pc
+processor              36864  1 acpi_cpufreq
+video                  40960  0
+button                 16384  0
+ac                     16384  0
+battery                16384  0
+autofs4                40960  2
+ext4                  593920  2
+ecb                    16384  0
+crc16                  16384  2 ext4,bluetooth
+jbd2                  106496  1 ext4
+crc32c_generic         16384  0
+mbcache                16384  3 ext4
+hid_generic            16384  0
+usbhid                 49152  0
+hid                   118784  2 hid_generic,usbhid
+dm_mod                106496  6
+sr_mod                 24576  0
+sd_mod                 45056  3
+cdrom                  57344  1 sr_mod
+ata_generic            16384  0
+ohci_pci               16384  0
+crct10dif_pclmul       16384  0
+crc32_pclmul           16384  0
+crc32c_intel           24576  0
+ghash_clmulni_intel    16384  0
+jitterentropy_rng      16384  0
+hmac                   16384  1
+drbg                   24576  1
+ansi_cprng             16384  0
+aesni_intel           167936  0
+ohci_hcd               49152  1 ohci_pci
+ahci                   36864  2
+ata_piix               36864  0
+libahci                32768  1 ahci
+aes_x86_64             20480  1 aesni_intel
+lrw                    16384  1 aesni_intel
+gf128mul               16384  1 lrw
+ehci_pci               16384  0
+glue_helper            16384  1 aesni_intel
+ehci_hcd               77824  1 ehci_pci
+psmouse               126976  0
+ablk_helper            16384  1 aesni_intel
+cryptd                 20480  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+libata                233472  4 ahci,libahci,ata_generic,ata_piix
+usbcore               241664  5 ohci_hcd,ohci_pci,ehci_hcd,ehci_pci,usbhid
+usb_common             16384  1 usbcore
+scsi_mod              233472  4 sg,libata,sd_mod,sr_mod
+e1000                 135168  0
+fjes                   28672  0
+=======================
+PCI devices:
+00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II]
+00:01.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)
+00:02.0 VGA compatible controller: InnoTek Systemberatung GmbH VirtualBox Graphics Adapter
+00:03.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02)
+00:04.0 System peripheral: InnoTek Systemberatung GmbH VirtualBox Guest Service
+00:05.0 Multimedia audio controller: Intel Corporation 82801AA AC'97 Audio Controller (rev 01)
+00:06.0 USB controller: Apple Inc. KeyLargo/Intrepid USB
+00:07.0 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)
+00:0b.0 USB controller: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller
+00:0d.0 SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)
+=======================
+CPU:
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 60
+Model name:            Intel(R) Core(TM) i7-4720HQ CPU @ 2.60GHz
+Stepping:              3
+CPU MHz:               2594.058
+BogoMIPS:              5188.11
+Hypervisor vendor:     Oracle
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              6144K
+NUMA node0 CPU(s):     0-3
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc eagerfpu pni pclmulqdq ssse3 cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx rdrand lahf_lm abm
+=======================

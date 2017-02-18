@@ -1,0 +1,841 @@
+Public IP:
+158.69.143.98
+System name:
+Darwin Hackings-iMac.local 16.3.0 Darwin Kernel Version 16.3.0: Thu Nov 17 20:23:58 PST 2016; root:xnu-3789.31.2~1/RELEASE_X86_64 x86_64
+Environment:
+TERM_PROGRAM=Apple_Terminal
+TERM=xterm-256color
+SHELL=/bin/bash
+TMPDIR=/var/folders/80/hg14_s1d6_q7bzv7xppyd89m0000gn/T/
+Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.h6eCL4ER8g/Render
+TERM_PROGRAM_VERSION=388
+TERM_SESSION_ID=205AF521-768F-45F3-92C8-2DF15BDEF64B
+USER=hackingscool
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.F1sRnybEyz/Listeners
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PWD=/Users/hackingscool/Documents
+XPC_FLAGS=0x0
+XPC_SERVICE_NAME=0
+HOME=/Users/hackingscool
+SHLVL=1
+LOGNAME=hackingscool
+LC_CTYPE=UTF-8
+SECURITYSESSIONID=186a7
+_=/usr/bin/ruby
+Network info:
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 ::1 prefixlen 128 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=201<PERFORMNUD,DAD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=2b<RXCSUM,TXCSUM,VLAN_HWTAGGING,TSO4>
+	ether 08:00:27:46:14:56 
+	inet6 fe80::78:9fe8:debc:a2d4%en0 prefixlen 64 secured scopeid 0x4 
+	inet 192.168.1.40 netmask 0xffffff00 broadcast 192.168.1.255
+	nd6 options=201<PERFORMNUD,DAD>
+	media: autoselect (1000baseT <full-duplex>)
+	status: active
+utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+	inet6 fe80::30fd:c5f4:c340:1de0%utun0 prefixlen 64 scopeid 0x5 
+	nd6 options=201<PERFORMNUD,DAD>
+Processes:
+USER              PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+hackingscool      606  13.5  0.2  2448680  10280 s000  S+    5:34AM   0:00.09 ruby ./up.rb
+hackingscool      335   4.8  1.2  2619788  52280   ??  S     5:26AM   0:04.28 /Applications/Utilities/Terminal.app/Contents/MacOS/Terminal -psn_0_53261
+_windowserver     132   3.1  1.4  2700284  57704   ??  Ss    5:25AM   0:23.98 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+hackingscool      331   0.7  1.2   763356  49924   ??  S     5:26AM   0:06.45 /Applications/Editra.app/Contents/MacOS/Editra -psn_0_40970
+root               97   0.4  0.0  2447996   1728   ??  Ss    5:24AM   0:01.13 /usr/sbin/notifyd
+_mdnsresponder    126   0.3  0.2  2475332   6436   ??  Ss    5:25AM   0:00.37 /usr/sbin/mDNSResponder
+hackingscool      402   0.3  0.0  2442612   1464 s000  S     5:26AM   0:00.05 -bash
+_networkd         180   0.1  0.2  2479856   6912   ??  Ss    5:25AM   0:00.37 /usr/libexec/symptomsd
+hackingscool      341   0.1  1.1  2565272  44604   ??  S     5:26AM   0:02.38 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+root                1   0.1  0.3  2469496  12080   ??  Ss    5:24AM   0:04.48 /sbin/launchd
+hackingscool      535   0.0  0.1  2477276   6284   ??  S     5:30AM   0:00.09 /usr/libexec/keyboardservicesd
+hackingscool      534   0.0  0.4  2531336  18420   ??  S     5:30AM   0:00.42 /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell -psn_0_196656
+root              523   0.0  0.0  2447408   2084   ??  Ss    5:30AM   0:00.01 /System/Library/PrivateFrameworks/InstallerDiagnostics.framework/Versions/A/Resources/installerdiagd
+_spotlight        521   0.0  0.2  2451764   6856   ??  S     5:29AM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+_spotlight        520   0.0  0.2  2456608   7516   ??  S     5:29AM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+_spotlight        519   0.0  0.0  2446932   1264   ??  S     5:29AM   0:00.01 /usr/sbin/distnoted agent
+_spotlight        518   0.0  0.1  2453520   5740   ??  S     5:29AM   0:00.03 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+_spotlight        517   0.0  0.2  2456084   7804   ??  S     5:29AM   0:00.06 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+_spotlight        516   0.0  0.2  2456608   7468   ??  S     5:29AM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+hackingscool      515   0.0  0.3  2460740  11284   ??  S     5:29AM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+hackingscool      514   0.0  0.2  2459936  10456   ??  S     5:29AM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+hackingscool      513   0.0  0.2  2455108   9576   ??  S     5:29AM   0:00.05 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+hackingscool      511   0.0  0.3  2455892  11776   ??  S     5:29AM   0:00.10 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+hackingscool      510   0.0  0.0  2448332   2052   ??  S     5:29AM   0:00.01 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+root              509   0.0  0.0  2448332   2056   ??  S     5:29AM   0:00.02 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdflagwriter
+hackingscool      493   0.0  0.1  2446920   2804   ??  S     5:27AM   0:00.02 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent
+hackingscool      492   0.0  0.4  2480440  16276   ??  S     5:27AM   0:00.35 /System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd
+hackingscool      491   0.0  0.1  2474416   5264   ??  Ss    5:27AM   0:00.06 /Library/Frameworks/iTunesLibrary.framework/Versions/A/XPCServices/com.apple.iTunesLibraryService.xpc/Contents/MacOS/com.apple.iTunesLibraryService
+hackingscool      490   0.0  0.1  2472872   6152   ??  Ss    5:27AM   0:00.05 /System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer
+hackingscool      489   0.0  0.1  2447448   2372   ??  S     5:27AM   0:00.02 /System/Library/Frameworks/MediaAccessibility.framework/Versions/A/XPCServices/com.apple.accessibility.mediaaccessibilityd.xpc/Contents/MacOS/com.apple.accessibility.mediaaccessibilityd
+_datadetectors    488   0.0  0.1  2447816   3692   ??  Ss    5:27AM   0:00.03 /usr/libexec/DataDetectorsSourceAccess
+hackingscool      487   0.0  0.2  2479400   7620   ??  S     5:27AM   0:00.79 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+hackingscool      485   0.0  0.3  2477988  12884   ??  Ss    5:27AM   0:00.52 /System/Library/PrivateFrameworks/SafariShared.framework/Versions/A/XPCServices/com.apple.Safari.SearchHelper.xpc/Contents/MacOS/com.apple.Safari.SearchHelper
+hackingscool      482   0.0  0.1  2451132   5516   ??  Ss    5:27AM   0:00.05 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/XPCServices/com.apple.CommerceKit.TransactionService.xpc/Contents/MacOS/com.apple.CommerceKit.TransactionService
+hackingscool      478   0.0  0.2  2500672   9304   ??  S     5:26AM   0:00.10 /System/Library/PrivateFrameworks/CommerceKit.framework/Resources/LaterAgent.app/Contents/MacOS/LaterAgent
+hackingscool      477   0.0  0.3  2481416  12916   ??  S     5:26AM   0:00.31 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+root              476   0.0  0.1  2447120   3456   ??  Ss    5:26AM   0:00.02 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeinstalld
+hackingscool      473   0.0  0.1  2473644   5688   ??  S     5:26AM   0:00.05 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storelegacy
+hackingscool      470   0.0  0.1  2448300   4536   ??  S     5:26AM   0:00.04 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_notify_agent
+root              469   0.0  0.1  2472712   5052   ??  Ss    5:26AM   0:00.04 /System/Library/PrivateFrameworks/FindMyMac.framework/Resources/FindMyMacd
+hackingscool      468   0.0  0.2  2477632  10480   ??  S     5:26AM   0:00.07 /System/Library/PrivateFrameworks/PhotoLibraryPrivate.framework/Versions/A/Support/photolibraryd
+hackingscool      467   0.0  0.1  2450372   5236   ??  S     5:26AM   0:00.09 /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary
+hackingscool      466   0.0  0.3  2483964  14172   ??  S     5:26AM   0:00.42 /System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service
+hackingscool      462   0.0  0.2  2449668   8540   ??  S     5:26AM   0:00.10 /System/Library/PrivateFrameworks/PrintingPrivate.framework/Versions/A/PrintUITool
+hackingscool      461   0.0  0.2  2472940   6624   ??  S     5:26AM   0:00.15 /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/XPCServices/com.apple.iCloudHelper.xpc/Contents/MacOS/com.apple.iCloudHelper
+root              460   0.0  0.1  2447260   3924   ??  Ss    5:26AM   0:00.04 /System/Library/CoreServices/SubmitDiagInfo server-init
+hackingscool      459   0.0  0.2  2474092   7952   ??  S     5:26AM   0:00.16 /usr/libexec/fmfd
+hackingscool      457   0.0  1.6  3618040  67360   ??  Ss    5:26AM   0:00.88 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+hackingscool      456   0.0  1.6  3615528  66732   ??  Ss    5:26AM   0:01.01 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+hackingscool      455   0.0  1.8  3628260  77136   ??  Ss    5:26AM   0:01.09 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+hackingscool      454   0.0  1.5  3614612  62868   ??  Ss    5:26AM   0:00.95 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+hackingscool      453   0.0  0.8  3587464  34080   ??  Ss    5:26AM   0:00.50 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+hackingscool      452   0.0  0.6  3562272  25440   ??  Ss    5:26AM   0:02.73 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking
+hackingscool      450   0.0  0.2  2473716   6392   ??  S     5:26AM   0:00.07 /System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent
+hackingscool      449   0.0  0.1  2478976   5652   ??  S     5:26AM   0:00.15 /Applications/iTunes.app/Contents/MacOS/iTunesHelper.app/Contents/MacOS/iTunesHelper
+hackingscool      448   0.0  0.1  2472816   5540   ??  S     5:26AM   0:00.05 /System/Library/PrivateFrameworks/CallHistory.framework/Support/CallHistoryPluginHelper
+hackingscool      446   0.0  0.1  2472564   5584   ??  S     5:26AM   0:00.06 /System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/Frameworks/CloudPhotosConfigurationXPC.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration
+hackingscool      443   0.0  0.4  2481736  15384   ??  S     5:26AM   0:00.25 /System/Library/PrivateFrameworks/PassKitCore.framework/passd
+hackingscool      442   0.0  0.1  2473448   5976   ??  S     5:26AM   0:00.09 /System/Library/CoreServices/diagnostics_agent
+hackingscool      439   0.0  0.2  2448440   6636   ??  S     5:26AM   0:00.07 /System/Library/CoreServices/cloudpaird
+hackingscool      438   0.0  0.2  2474784   7988   ??  S     5:26AM   0:00.15 /System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent
+hackingscool      437   0.0  0.2  2501724   8780   ??  S     5:26AM   0:00.31 /System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd
+hackingscool      436   0.0  0.1  2472556   4112   ??  S     5:26AM   0:00.04 /System/Library/PrivateFrameworks/AskPermission.framework/Versions/A/Resources/askpermissiond
+hackingscool      433   0.0  0.2  2474928   8628   ??  S     5:26AM   0:00.12 /System/Library/CoreServices/AppleIDAuthAgent
+hackingscool      432   0.0  0.2  2474628   7620   ??  S     5:26AM   0:00.17 /System/Library/Image Capture/Support/icdd
+hackingscool      430   0.0  0.3  2502068  10544   ??  S     5:26AM   0:00.31 /System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd
+hackingscool      429   0.0  0.1  2494148   6192   ??  S     5:26AM   0:00.09 /System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent
+hackingscool      428   0.0  0.7  2545872  28752   ??  S     5:26AM   0:01.12 /System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter
+hackingscool      425   0.0  0.1  2473064   3648   ??  S     5:26AM   0:00.03 /System/Library/CoreServices/SocialPushAgent.app/Contents/MacOS/SocialPushAgent
+hackingscool      422   0.0  0.1  2447684   2932   ??  S     5:26AM   0:00.02 /usr/libexec/spindump_agent
+hackingscool      421   0.0  0.2  2497520   8264   ??  S     5:26AM   0:00.08 /System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher
+hackingscool      420   0.0  0.3  2454368  12296   ??  S     5:26AM   0:00.14 /System/Library/PrivateFrameworks/AssistantServices.framework/assistantd
+hackingscool      419   0.0  0.4  2488152  15344   ??  S     5:26AM   0:00.37 /System/Library/PrivateFrameworks/MessagesKit.framework/Resources/soagent.app/Contents/MacOS/soagent
+hackingscool      418   0.0  0.1  2447148   4292   ??  S     5:26AM   0:00.10 /System/Library/Frameworks/AddressBook.framework/Executables/ContactsAccountsService
+hackingscool      417   0.0  0.1  2448252   3148   ??  S     5:26AM   0:00.03 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/PrintCore.framework/Versions/A/printtool agent
+hackingscool      415   0.0  0.3  2479052  13812   ??  Ss    5:26AM   0:00.45 /System/Library/PrivateFrameworks/CalendarNotification.framework/Versions/A/XPCServices/CalNCService.xpc/Contents/MacOS/CalNCService
+hackingscool      414   0.0  0.2  2474104   6536   ??  Ss    5:26AM   0:00.11 /System/Library/PrivateFrameworks/IMFoundation.framework/XPCServices/IMRemoteURLConnectionAgent.xpc/Contents/MacOS/IMRemoteURLConnectionAgent
+hackingscool      409   0.0  0.1  2449388   4228   ??  S     5:26AM   0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw
+hackingscool      406   0.0  0.1  2447148   2932   ??  S     5:26AM   0:00.04 /System/Library/Frameworks/Security.framework/Versions/A/Resources/CloudKeychainProxy.bundle/Contents/MacOS/CloudKeychainProxy
+hackingscool      405   0.0  0.1  2447776   3904   ??  S     5:26AM   0:00.05 /System/Library/Frameworks/Security.framework/Versions/A/Resources/IDSKeychainSyncingProxy.bundle/Contents/MacOS/IDSKeychainSyncingProxy
+root              401   0.0  0.1  2447892   3256   ??  Ss    5:26AM   0:00.03 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
+hackingscool      400   0.0  0.1  2473424   3644   ??  S     5:26AM   0:00.03 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+hackingscool      399   0.0  0.1  2447180   2888   ??  S     5:26AM   0:00.03 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp
+root              397   0.0  0.1  2446940   2580 s000  Ss    5:26AM   0:00.03 login -pfl hackingscool /bin/bash -c exec -la bash /bin/bash
+hackingscool      395   0.0  0.5  2506360  20532   ??  Ss    5:26AM   0:00.52 /System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra
+hackingscool      393   0.0  0.2  2475672   7604   ??  S     5:26AM   0:00.14 /System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd
+root              392   0.0  0.1  2450792   3516   ??  Ss    5:26AM   0:00.03 /usr/sbin/filecoordinationd
+hackingscool      385   0.0  0.3  2479892  12604   ??  S     5:26AM   0:00.43 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd
+hackingscool      384   0.0  0.2  2500848   9276   ??  S     5:26AM   0:00.38 /System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent
+root              383   0.0  0.1  2449572   3056   ??  Ss    5:26AM   0:00.03 automountd
+hackingscool      382   0.0  0.3  2477044  10684   ??  S     5:26AM   0:00.41 /System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod
+root              381   0.0  0.1  2447200   3040   ??  Ss    5:26AM   0:00.03 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/system_installd
+hackingscool      380   0.0  0.1  2472228   4560   ??  S     5:26AM   0:00.04 /System/Library/PrivateFrameworks/GeoServices.framework/geodMachServiceBridge
+hackingscool      379   0.0  0.1  2475876   6216   ??  S     5:26AM   0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storedownloadd
+root              378   0.0  0.1  2447916   4900   ??  Ss    5:26AM   0:00.05 /System/Library/CoreServices/backupd.bundle/Contents/Resources/TMCacheDelete
+hackingscool      377   0.0  0.1  2476068   5100   ??  S     5:26AM   0:00.06 /System/Library/CoreServices/pbs
+hackingscool      376   0.0  0.2  2478048   8948   ??  S     5:26AM   0:00.20 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeassetd
+hackingscool      375   0.0  0.2  2475816   7840   ??  S     5:26AM   0:00.69 /usr/libexec/pkd
+hackingscool      374   0.0  0.2  2477024   7008   ??  S     5:26AM   0:00.15 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd
+hackingscool      372   0.0  0.1  2474480   6232   ??  S     5:26AM   0:00.24 /System/Library/PrivateFrameworks/CacheDelete.framework/deleted
+hackingscool      371   0.0  0.2  2479660   7676   ??  S     5:26AM   0:00.05 /System/Library/CoreServices/iconservicesagent
+hackingscool      370   0.0  0.3  2497092  13504   ??  S     5:26AM   0:00.54 /System/Library/PrivateFrameworks/CoreParsec.framework/parsecd
+hackingscool      369   0.0  0.2  2474524   7888   ??  S     5:26AM   0:00.37 /usr/libexec/nsurlstoraged
+hackingscool      368   0.0  0.2  2478208  10320   ??  S     5:26AM   0:00.50 /usr/libexec/secinitd
+hackingscool      367   0.0  0.2  2479964   7596   ??  S     5:26AM   0:00.10 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+hackingscool      366   0.0  0.2  2477704  10172   ??  S     5:26AM   0:00.14 /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd
+hackingscool      365   0.0  0.3  2502516  11528   ??  S     5:26AM   0:00.19 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbagent.app/Contents/MacOS/nbagent
+hackingscool      362   0.0  0.4  2500180  16268   ??  S     5:26AM   0:00.47 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd
+hackingscool      360   0.0  0.2  2473608   6576   ??  S     5:26AM   0:00.10 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+hackingscool      359   0.0  0.1  2472596   3344   ??  S     5:26AM   0:00.05 /System/Library/PrivateFrameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent
+hackingscool      358   0.0  0.6  2509304  24904   ??  S     5:26AM   0:00.52 /System/Library/CoreServices/cloudphotosd.app/Contents/MacOS/cloudphotosd
+hackingscool      357   0.0  0.2  2474612   8472   ??  S     5:26AM   0:00.13 /System/Library/CoreServices/mapspushd
+hackingscool      354   0.0  0.4  2480800  14740   ??  S     5:26AM   0:00.81 /System/Library/PrivateFrameworks/CalendarAgent.framework/Executables/CalendarAgent
+hackingscool      352   0.0  0.1  2475168   5616   ??  S     5:26AM   0:00.04 /usr/libexec/networkserviceproxy
+hackingscool      351   0.0  0.2  2477296   9540   ??  S     5:26AM   0:00.85 /usr/libexec/nsurlsessiond
+hackingscool      350   0.0  0.2  2474132   8496   ??  S     5:26AM   0:00.32 /usr/sbin/usernoted
+hackingscool      349   0.0  0.2  2506708   8352   ??  S     5:26AM   0:00.79 /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd
+hackingscool      346   0.0  0.7  2577044  29616   ??  S     5:26AM   0:01.25 /System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight
+hackingscool      345   0.0  0.1  2464432   4784   ??  S     5:26AM   0:00.05 /usr/libexec/pboard
+hackingscool      342   0.0  0.1  2474796   4852   ??  S     5:26AM   0:00.09 /usr/libexec/secd
+hackingscool      340   0.0  0.6  2533344  24540   ??  S     5:26AM   0:00.82 /System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer
+hackingscool      339   0.0  0.8  2551828  34688   ??  S     5:26AM   0:01.55 /System/Library/CoreServices/Dock.app/Contents/MacOS/Dock
+hackingscool      337   0.0  0.3  2484292  13856   ??  S     5:26AM   0:00.29 /System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd
+hackingscool      336   0.0  0.1  2476692   5872   ??  S     5:26AM   0:00.23 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd
+hackingscool      334   0.0  1.4  3716540  59292   ??  S     5:26AM   0:08.64 /Applications/Safari.app/Contents/MacOS/Safari -psn_0_49164
+hackingscool      333   0.0  0.1  2473424   5032   ??  S     5:26AM   0:00.13 /System/Library/CoreServices/sharedfilelistd
+root              332   0.0  0.0  2442316   1720   ??  Ss    5:26AM   0:00.01 /usr/libexec/taskgated -s
+hackingscool      330   0.0  0.3  2483588  13480   ??  S     5:26AM   0:00.55 /usr/libexec/sharingd
+hackingscool      329   0.0  0.2  2477604   7632   ??  S     5:26AM   0:00.90 /usr/libexec/trustd --agent
+hackingscool      328   0.0  0.2  2475988   7092   ??  S     5:26AM   0:00.13 /usr/libexec/lsd
+hackingscool      327   0.0  0.1  2447520   2796   ??  S     5:26AM   0:00.69 /usr/sbin/cfprefsd agent
+hackingscool      325   0.0  0.1  2447980   2932   ??  S     5:26AM   0:00.35 /usr/sbin/distnoted agent
+hackingscool      323   0.0  0.4  2477164  15016   ??  S     5:26AM   0:00.60 /usr/libexec/UserEventAgent (Aqua)
+root              322   0.0  0.1  2448636   2504   ??  Ss    5:26AM   0:00.08 /usr/libexec/securityd_service
+root              320   0.0  0.0  2447720   2032   ??  Ss    5:26AM   0:00.02 /System/Library/Frameworks/GSS.framework/Helpers/com.apple.GSSCred
+_softwareupdate   316   0.0  0.1  2473588   4700   ??  Ss    5:26AM   0:00.06 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdate_download_service
+root              315   0.0  0.2  2481496  10260   ??  Ss    5:26AM   0:00.15 /System/Library/PrivateFrameworks/PackageKit.framework/Resources/installd
+root              314   0.0  0.1  2449196   4064   ??  Ss    5:25AM   0:00.03 /usr/sbin/spindump
+root              290   0.0  0.1  2475140   3400   ??  Ss    5:25AM   0:00.07 /System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeaccountd daemon
+root              289   0.0  0.1  2473536   4148   ??  Ss    5:25AM   0:00.04 /System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd
+root              288   0.0  0.1  2447980   2276   ??  Ss    5:25AM   0:00.02 /System/Library/PrivateFrameworks/AccountPolicy.framework/XPCServices/com.apple.AccountPolicyHelper.xpc/Contents/MacOS/com.apple.AccountPolicyHelper
+root              286   0.0  0.1  2473184   4376   ??  Ss    5:25AM   0:00.10 /System/Library/CoreServices/sharedfilelistd --enable-legacy-services
+root              285   0.0  0.1  2474088   4096   ??  Ss    5:25AM   0:00.03 /System/Library/PrivateFrameworks/TCC.framework/Resources/tccd system
+root              284   0.0  0.1  2476608   5360   ??  Ss    5:25AM   0:00.09 /usr/sbin/systemsoundserverd
+root              260   0.0  0.1  2490368   2608   ??  Ss    5:25AM   0:00.03 /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/CVMServer
+root              256   0.0  0.1  2447732   2496   ??  Ss    5:25AM   0:00.01 /usr/libexec/diagnosticd
+root              254   0.0  0.2  2474952   7120   ??  Ss    5:25AM   0:00.07 /usr/libexec/secinitd
+root              253   0.0  0.1  2447180   2676   ??  Ss    5:25AM   0:00.02 /System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp -d
+root              249   0.0  0.1  2448596   3704   ??  Ss    5:25AM   0:00.11 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/com.apple.CodeSigningHelper.xpc/Contents/MacOS/com.apple.CodeSigningHelper
+root              236   0.0  0.1  2473196   4132   ??  Ss    5:25AM   0:00.07 /System/Library/PrivateFrameworks/AmbientDisplay.framework/Versions/A/XPCServices/com.apple.AmbientDisplayAgent.xpc/Contents/MacOS/com.apple.AmbientDisplayAgent
+_nsurlstoraged    234   0.0  0.1  2447484   3548   ??  Ss    5:25AM   0:00.04 /usr/libexec/nsurlstoraged
+_netbios          233   0.0  0.1  2449212   3140   ??  SNs   5:25AM   0:00.04 /usr/sbin/netbiosd
+root              189   0.0  0.1  2476720   6108   ??  Ss    5:25AM   0:00.48 /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/XPCServices/com.apple.PerformanceAnalysis.animationperfd.xpc/Contents/MacOS/com.apple.PerformanceAnalysis.animationperfd
+root              188   0.0  0.1  2448164   2596   ??  Ss    5:25AM   0:00.04 /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/suhelperd
+root              187   0.0  0.1  2447196   2652   ??  Ss    5:25AM   0:00.09 sysmond
+root              186   0.0  0.1  2474376   4956   ??  Ss    5:25AM   0:00.06 /usr/libexec/findmydeviced
+_softwareupdate   185   0.0 12.5  4958960 523216   ??  Ss    5:25AM   0:43.58 /System/Library/CoreServices/Software Update.app/Contents/Resources/softwareupdated
+root              184   0.0  0.0  2439216    732   ??  SNs   5:25AM   0:00.01 /usr/libexec/periodic-wrapper daily
+root              183   0.0  0.0  2447408    744   ??  SNs   5:25AM   0:00.01 /usr/libexec/periodic-wrapper weekly
+root              182   0.0  0.0  2447976   1544   ??  Ss    5:25AM   0:00.01 /usr/libexec/syspolicyd
+_locationd        179   0.0  0.2  2479324   6948   ??  Ss    5:25AM   0:00.16 /usr/libexec/locationd
+root              177   0.0  0.1  2447140   3036   ??  Ss    5:25AM   0:00.02 /System/Library/CryptoTokenKit/com.apple.ifdreader.slotd/Contents/MacOS/com.apple.ifdreader
+root              176   0.0  0.1  2473756   5568   ??  Ss    5:25AM   0:00.04 /usr/libexec/usbd
+root              175   0.0  0.1  2476444   5792   ??  Ss    5:25AM   0:00.09 /usr/libexec/nehelper
+root              174   0.0  0.1  2450508   2976   ??  Ss    5:25AM   0:00.08 /usr/sbin/ntpd -c /private/etc/ntp-restrict.conf -n -g -p /var/run/ntpd.pid -f /var/db/ntp.drift
+_nsurlsessiond    173   0.0  0.2  2476764   9284   ??  Ss    5:25AM   0:00.33 /usr/libexec/nsurlsessiond --privileged
+root              172   0.0  0.1  2446912   3028   ??  Ss    5:25AM   0:00.02 /System/Library/CoreServices/CrashReporterSupportHelper server-init
+root              171   0.0  0.0  2439236   1812   ??  Ss    5:25AM   0:00.01 /usr/libexec/watchdogd
+root              168   0.0  0.1  2473440   4296   ??  Ss    5:25AM   0:00.08 /System/Library/PrivateFrameworks/WirelessDiagnostics.framework/Support/awdd
+_coreaudiod       166   0.0  0.1  2472784   3704   ??  Ss    5:25AM   0:00.07 /System/Library/Frameworks/CoreAudio.framework/Versions/A/XPCServices/com.apple.audio.DriverHelper.xpc/Contents/MacOS/com.apple.audio.DriverHelper
+root              164   0.0  0.1  2473476   5256   ??  Ss    5:25AM   0:00.12 /usr/sbin/ocspd
+root              163   0.0  1.7  2803876  71392   ??  Ss    5:25AM   0:03.45 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+root              162   0.0  0.1  2475072   5764   ??  Ss    5:25AM   0:00.13 /usr/libexec/lsd runAsRoot
+_ctkd             152   0.0  0.1  2449372   3912   ??  Ss    5:25AM   0:00.04 /System/Library/Frameworks/CryptoTokenKit.framework/ctkd -s
+root              151   0.0  0.1  2448176   2768   ??  Ss    5:25AM   0:00.03 /System/Library/Frameworks/PCSC.framework/Versions/A/XPCServices/com.apple.ctkpcscd.xpc/Contents/MacOS/com.apple.ctkpcscd
+root              139   0.0  0.2  2477208   6832   ??  Ss    5:25AM   0:00.45 /usr/libexec/trustd
+root              138   0.0  0.0  2448748   1980   ??  Ss    5:25AM   0:00.02 /usr/sbin/systemstats --xpc
+root              135   0.0  0.1  2449668   3572   ??  Ss    5:25AM   0:00.03 /System/Library/PrivateFrameworks/CoreSymbolication.framework/coresymbolicationd
+_coreaudiod       134   0.0  0.2  2451272   7608   ??  Ss    5:25AM   0:00.54 /usr/sbin/coreaudiod
+root              129   0.0  0.1  2473852   2772   ??  Ss    5:25AM   0:00.07 /usr/sbin/mDNSResponderHelper
+root              128   0.0  0.6  2493204  25508   ??  Ss    5:25AM   0:03.00 /usr/libexec/sandboxd
+root              127   0.0  0.1  2447452   2620   ??  Ss    5:25AM   0:00.04 aslmanager
+root              107   0.0  0.1  2455596   4544   ??  Ss    5:25AM   0:00.03 /usr/libexec/rpcsvchost -launchd netlogon.bundle
+_distnote         103   0.0  0.0  2446932   1912   ??  Ss    5:25AM   0:00.09 /usr/sbin/distnoted daemon
+root              101   0.0  0.1  2447424   2800   ??  Ss    5:25AM   0:00.71 /usr/sbin/cfprefsd daemon
+root               99   0.0  0.2  2479528   6300   ??  Ss    5:24AM   0:00.31 /System/Library/CoreServices/coreservicesd
+root               98   0.0  0.2  2476220   7748   ??  Ss    5:24AM   0:00.18 /System/Library/Frameworks/Security.framework/Versions/A/XPCServices/authd.xpc/Contents/MacOS/authd
+root               96   0.0  0.1  2474236   6048   ??  Ss    5:24AM   0:00.11 /usr/libexec/AirPlayXPCHelper
+_hidd              95   0.0  0.1  2449908   4196   ??  Ss    5:24AM   0:02.98 /usr/libexec/hidd
+root               93   0.0  0.0  2447180   1184   ??  Ss    5:24AM   0:00.01 /usr/sbin/KernelEventAgent
+root               92   0.0  0.1  2446960   2892   ??  Ss    5:24AM   0:00.03 /System/Library/CoreServices/logind
+hackingscool       91   0.0  0.6  2528844  25012   ??  Ss    5:24AM   0:01.33 /System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console
+root               90   0.0  0.1  2474664   3748   ??  Ss    5:24AM   0:00.08 /System/Library/PrivateFrameworks/GenerationalStorage.framework/Versions/A/Support/revisiond
+root               87   0.0  0.1  2447408   2436   ??  Ss    5:24AM   0:00.01 autofsd
+root              611   0.0  0.0  2432976   1044 s000  R+    5:34AM   0:00.00 ps aux
+root               84   0.0  0.2  2477104   6448   ??  Ss    5:24AM   0:00.26 /usr/libexec/DuetHeuristic-BM
+root               80   0.0  0.2  2475288   6592   ??  Ss    5:24AM   0:00.81 /usr/sbin/securityd -i
+_usbmuxd           79   0.0  0.1  2447548   2852   ??  Ss    5:24AM   0:00.05 /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/Resources/usbmuxd -launchd
+root               78   0.0  0.1  2474500   5740   ??  Ss    5:24AM   0:01.37 /System/Library/CoreServices/launchservicesd
+root               77   0.0  0.1  2474152   3936   ??  Ss    5:24AM   0:00.09 /System/Library/PrivateFrameworks/Noticeboard.framework/Versions/A/Resources/nbstated
+root               76   0.0  0.3  2479680  13292   ??  Ss    5:24AM   0:01.26 /System/Library/PrivateFrameworks/ApplePushService.framework/apsd
+root               74   0.0  0.1  2474216   2864   ??  Ss    5:24AM   0:00.04 /usr/sbin/wirelessproxd
+root               73   0.0  0.3  2486892  11964   ??  Ss    5:24AM   0:02.57 /usr/libexec/opendirectoryd
+root               71   0.0  0.0  2446636   1716   ??  Ss    5:24AM   0:00.13 /System/Library/CoreServices/ionodecache -k /var/db/ionodecache.json
+root               68   0.0  0.0  2449240   2072   ??  Ss    5:24AM   0:00.02 /usr/libexec/wdhelper
+root               67   0.0  0.5  2482164  20616   ??  Ss    5:24AM   0:00.60 /usr/libexec/coreduetd
+root               65   0.0  0.1  2472336   2992   ??  Ss    5:24AM   0:00.16 /usr/libexec/diskarbitrationd
+root               63   0.0  0.0  2449112   1676   ??  Ss    5:24AM   0:00.02 /System/Library/CoreServices/iconservicesagent
+_iconservices      62   0.0  0.0  2449112   1792   ??  Ss    5:24AM   0:00.02 /System/Library/CoreServices/iconservicesd
+root               57   0.0  0.6  2545188  26984   ??  Ss    5:24AM   0:05.32 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+root               56   0.0  0.1  2449656   5936   ??  SNs   5:24AM   0:00.08 /usr/libexec/warmd
+root               54   0.0  0.1  2449956   3400   ??  Ss    5:24AM   0:00.08 /usr/libexec/airportd
+root               50   0.0  0.2  2503024   8072   ??  Ss    5:24AM   0:01.57 /usr/libexec/logd
+root               46   0.0  0.3  2479372  13764   ??  Ss    5:24AM   0:00.87 /usr/libexec/mobileassetd
+root               45   0.0  0.1  2472536   3448   ??  Ss    5:24AM   0:00.24 /System/Library/CoreServices/powerd.bundle/powerd
+root               44   0.0  0.2  2477376   6420   ??  Ss    5:24AM   0:00.43 /usr/libexec/configd
+_appleevents       43   0.0  0.1  2474492   4336   ??  Ss    5:24AM   0:00.10 /System/Library/CoreServices/appleeventsd --server
+root               40   0.0  0.1  2473956   5772   ??  Ss    5:24AM   0:00.20 /System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoted
+root               38   0.0  0.2  2455196   8288   ??  Ss    5:24AM   0:00.65 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+root               37   0.0  0.3  2478760  12536   ??  Ss    5:24AM   0:00.51 /usr/libexec/kextd
+root               36   0.0  0.1  2448436   2484   ??  Ss    5:24AM   0:00.05 /System/Library/PrivateFrameworks/Uninstall.framework/Resources/uninstalld
+root               34   0.0  0.4  2478816  15352   ??  Ss    5:24AM   0:00.78 /usr/libexec/UserEventAgent (System)
+root               33   0.0  0.0  2449104    976   ??  Ss    5:24AM   0:00.29 /usr/sbin/syslogd
+root               86   0.0  0.1  2474412   5996   ??  Ss    5:24AM   0:00.08 /usr/sbin/blued
+root              587   0.0  0.1  2449012   4596   ??  Ss    5:31AM   0:00.03 /usr/sbin/cupsd -l
+hackingscool      565   0.0  0.2  2479104   9696 s000  T     5:31AM   0:00.25 system_profiler -detailLevel mini
+hackingscool      555   0.0  0.3  2448680  10496 s000  T     5:31AM   0:00.11 ruby ./up.rb
+hackingscool      550   0.0  0.2  2990568   7788   ??  S     5:31AM   0:00.06 /System/Library/Frameworks/QuickLook.framework/Resources/quicklookd.app/Contents/MacOS/quicklookd
+hackingscool      547   0.0  1.1  3606596  47696   ??  Ss    5:30AM   0:01.76 /System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.WebContent.xpc/Contents/MacOS/com.apple.WebKit.WebContent
+root              543   0.0  0.1  2473072   3748   ??  Ss    5:30AM   0:00.47 /System/Library/PrivateFrameworks/StreamingZip.framework/Versions/A/XPCServices/com.apple.StreamingUnzipService.xpc/Contents/MacOS/com.apple.StreamingUnzipService
+_assetcache       541   0.0  0.2  2474600   6844   ??  Ss    5:30AM   0:00.11 /System/Library/PrivateFrameworks/AssetCacheServices.framework/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -d
+hackingscool      539   0.0  0.1  2447164   4168   ??  S     5:30AM   0:00.03 /System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert
+hackingscool      536   0.0  0.1  2450876   3676   ??  S     5:30AM   0:00.03 /System/Library/PrivateFrameworks/StorageManagement.framework/Resources/diskspaced
+Open ports:
+tcp4       0      0  127.0.0.1.631          *.*                    LISTEN     
+tcp6       0      0  ::1.631                                       *.*                                           LISTEN     
+tcp4       0      0  127.0.0.1.27150        *.*                    LISTEN     
+System information:
+Audio:
+
+    Intel High Definition Audio:
+
+      Audio ID: 4
+
+        Headphone:
+
+          Connection: Combination Output
+
+        Internal Microphone:
+
+          Connection: Internal
+
+        Speaker:
+
+          Connection: Internal
+
+        Line Input:
+
+          Connection: Combination Input
+
+        S/PDIF Optical Digital Audio Output:
+
+          Connection: Combination Output
+
+        S/PDIF Optical Digital Audio Input:
+
+          Connection: Combination Input
+
+    Devices:
+
+        Built-in Microphone:
+
+          Default Input Device: Yes
+          Input Channels: 2
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+
+        Built-in Input:
+
+          Input Channels: 2
+          Manufacturer: Apple Inc.
+          Current SampleRate: 44100
+          Transport: Built-in
+
+        Built-in Output:
+
+          Default Output Device: Yes
+          Default System Output Device: Yes
+          Manufacturer: Apple Inc.
+          Output Channels: 2
+          Current SampleRate: 44100
+          Transport: Built-in
+
+Diagnostics:
+
+    Power On Self-Test:
+
+      Last Run: 10/02/2017, 05:24
+      Result: Passed
+
+Ethernet Cards:
+
+    ethernet:
+
+      Type: Ethernet Controller
+      Bus: PCI
+      Vendor ID: 0x8086
+      Device ID: 0x100f
+      Subsystem Vendor ID: 0x15ad
+      Subsystem ID: 0x0750
+      Revision ID: 0x0002
+      BSD name: en0
+      Kext name: AppleIntel8254XEthernet.kext
+      Location: /System/Library/Extensions/IONetworkingFamily.kext/Contents/PlugIns/AppleIntel8254XEthernet.kext
+      Version: 3.1.4b1
+
+Graphics/Displays:
+
+    Display:
+
+      Type: GPU
+      Bus: PCI
+      VRAM (Total): 4 MB
+      Device ID: 0xbeef
+      Revision ID: 0x0000
+      Kernel Extension Info: No Kext Loaded
+      Displays:
+        Display:
+          Resolution: 1440 x 900
+          Pixel Depth: 32-Bit Color (ARGB8888)
+          Main Display: Yes
+          Mirror: Off
+          Online: Yes
+          Automatically Adjust Brightness: No
+      Vendor ID: 0x80ee
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: iMac
+      Model Identifier: iMac11,3
+      Processor Speed: 2,59 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 12 MB
+      Memory: 4 GB
+      Boot ROM Version: VirtualBox
+      SMC Version (system): 2.3f35
+
+Memory:
+
+    Memory Slots:
+
+      ECC: Disabled
+      Upgradeable Memory: Yes
+
+        Bank 0/DIMM 0:
+
+          Size: 4 GB
+          Type: DRAM
+          Speed: 1600 MHz
+          Status: OK
+          Manufacturer: innotek GmbH
+          Part Number: -
+
+Network:
+
+    Ethernet:
+
+      Type: Ethernet
+      Hardware: Ethernet
+      BSD Device Name: en0
+      Service Order: 0
+
+Printer Software:
+
+    PPDs:
+
+      PPDs:
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX A3.gz
+          Version: 1.71
+          Path: /Library/Printers/PPDs/Contents/Resources/EPSON FAX.gz
+          Version: 1.71
+
+    Printers:
+
+      Printers:
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDA.framework/Versions/A/Resources/Info.plist
+          Version: 3.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDE.framework/Versions/A/Resources/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDM.framework/Versions/A/Resources/Info.plist
+          Version: 2.1.0
+          Path: /Library/Printers/Canon/IJScanner/Frameworks/CIJSDV.framework/Versions/A/Resources/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_bjnp.plugin/Contents/Info.plist
+          Version: 2.10.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2413.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2414.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq2415.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4807.plugin/Contents/Info.plist
+          Version: 2.3.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4808.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4809.plugin/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq4811.plugin/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_cnq9601.plugin/Contents/Info.plist
+          Version: 2.2.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_iom.plugin/Contents/Info.plist
+          Version: 1.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld.plugin/Contents/Info.plist
+          Version: 4.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_lld09.plugin/Contents/Info.plist
+          Version: 3.9.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb.plugin/Contents/Info.plist
+          Version: 1.4.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdj_sfusb2.plugin/Contents/Info.plist
+          Version: 1.5.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ag.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ago8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ausm.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_caps.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_cubs.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ddoct.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_dscrn.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_fare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_farec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercc.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_gercg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_hsl.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_ijfsh.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_jgdir.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrp3.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mcrpp.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo8.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldo9.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_mldv0.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_qare.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_racs2.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_rotate.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_smac.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tdg.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_tonec.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/Canon/IJScanner/Plugins/cijsdm_zoom.plugin/Contents/Info.plist
+          Version: 2.0.0
+          Path: /Library/Printers/EPSON/Fax/AutoSetupTool/EPFaxAutoSetupTool.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/epsonfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxIOService.framework/Versions/A/Resources/Info.plist
+          Version: 1.72
+          Path: /Library/Printers/EPSON/Fax/FaxIOSupport/FaxReceiveLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Filter/commandFilter.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Filter/rastertoepfax.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Help/Epson_IJFax_C.help/Contents/Info.plist
+          Version: 1.41
+          Path: /Library/Printers/EPSON/Fax/Icons/EpsonFax.icons/Contents/Info.plist
+          Version: 1.00
+          Path: /Library/Printers/EPSON/Fax/Libraries/FaxRecipientLib2.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/FICLib.framework/Versions/A/Resources/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Libraries/rastertotiff.framework/Versions/A/Resources/TIFFInfo.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/PDEs/PDECPlugin.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/SupportPrinters/FaxSupportInfo.bundle/Contents/Info.plist
+          Version: 1.10
+          Path: /Library/Printers/EPSON/Fax/Utility/Fax Receive Monitor.app/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/FAX Utility.app/Contents/Info.plist
+          Version: 1.73
+          Path: /Library/Printers/EPSON/Fax/Utility/Help/Epson_IJFaxUTY.help/Contents/Info.plist
+          Version: 1.41
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxCheckConnection.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxPrinterSpeedDial.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxReceive.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSettings.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxSyncContacts.plugin/Contents/Info.plist
+          Version: 1.71
+          Path: /Library/Printers/EPSON/Fax/Utility/Plugins/FaxTransmissionRecord.plugin/Contents/Info.plist
+          Version: 1.71
+
+    Image Capture Devices:
+
+      Image Capture Devices:
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner2.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner4.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Info.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/Canon IJScanner6.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 4.0.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Info.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/DDC.bundle/Contents/Info.plist
+          Version: 1.1.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/FIT.bundle/Contents/Info.plist
+          Version: 3.7.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Image Filter2.bundle/Contents/Info.plist
+          Version: 4.4.01
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/ImageFilter.bundle/Contents/Info.plist
+          Version: 3.2.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 10C.bundle/Contents/Info.plist
+          Version: 1.6.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 111.bundle/Contents/Info.plist
+          Version: 1.0.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 1D.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 23.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 30.bundle/Contents/Info.plist
+          Version: 1.0.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 32.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 41.bundle/Contents/Info.plist
+          Version: 1.1.3
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 43.bundle/Contents/Info.plist
+          Version: 1.1.6
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 52.bundle/Contents/Info.plist
+          Version: 1.1.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 54.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 5A.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 66.bundle/Contents/Info.plist
+          Version: 1.0.12
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 68.bundle/Contents/Info.plist
+          Version: 1.1.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 6E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7A.bundle/Contents/Info.plist
+          Version: 1.0.8
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7C.bundle/Contents/Info.plist
+          Version: 1.0.11
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 7E.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 86.bundle/Contents/Info.plist
+          Version: 1.1.1
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 8B.bundle/Contents/Info.plist
+          Version: 1.0.5
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 94.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter 95.bundle/Contents/Info.plist
+          Version: 1.2.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter A1.bundle/Contents/Info.plist
+          Version: 1.0.9
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter AD.bundle/Contents/Info.plist
+          Version: 1.2.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C2.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter C3.bundle/Contents/Info.plist
+          Version: 1.0.2
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter CA.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter DD.bundle/Contents/Info.plist
+          Version: 1.1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter EB.bundle/Contents/Info.plist
+          Version: 1.0.4
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/PlugIns/Interpreter FE.bundle/Contents/Info.plist
+          Version: 1.0
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/DeviceMatchingInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/HardwareInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ModelInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ProfileInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/RegionCodeInfo.plist
+          Version: 5.7.24
+          Path: /Library/Image Capture/Devices/EPSON Scanner.app/Contents/Resources/ResolutionInfo.plist
+          Version: 5.7.24
+
+    Image Capture Support:
+
+      Image Capture Support:
+          Path: /Library/Image Capture/Support/LegacyDeviceDiscoveryHelpers/AirScanLegacyDiscovery.app/Contents/Info.plist
+          Version: 12
+
+    System Library Extensions:
+
+      System Library Extensions:
+          Path: /System/Library/Extensions/AppleMobileDevice.kext
+          Version: 3.4.0
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleATAPIStorage.kext
+          Version: 404.30.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/AppleXserveRAID.kext
+          Version: 404.30.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/FireWireStorageDeviceSpecifics.kext
+          Version: 404.30.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SCSIDeviceSpecifics.kext
+          Version: 404.30.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/SonyXDCAMDriver.kext
+          Version: 404.30.1
+          Path: /System/Library/Extensions/AppleStorageDrivers.kext/Contents/PlugIns/USBStorageDeviceSpecifics.kext
+          Version: 404.30.1
+          Path: /System/Library/Extensions/AppleTopCase.kext
+          Version: 104
+          Path: /System/Library/Extensions/AppleTopCase.kext/Contents/PlugIns/AppleTopCaseActuatorHIDDriver.kext
+          Version: 104
+          Path: /System/Library/Extensions/AppleUSBTopCase.kext
+          Version: 252
+          Path: /System/Library/Extensions/CellPhoneHelper.kext
+          Version: 1.4.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriver.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDEventDriverSafeBoot.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOHIDFamily.kext/Contents/PlugIns/IOHIDUserClient.kext
+          Version: 2.0.0
+          Path: /System/Library/Extensions/IOStreamFamily.kext/Contents/PlugIns/IOStreamUserClient.kext
+          Version: 1.1.0
+          Path: /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBHIDDriverSafeBoot.kext
+          Version: 900.4.1
+          Path: /System/Library/Extensions/IOUSBHostFamily.kext/Contents/PlugIns/IOUSBHostHIDDeviceSafeBoot.kext
+          Version: 1.1
+          Path: /System/Library/Extensions/IOVideoFamily.kext/Contents/PlugIns/IOVideoDeviceUserClient.kext
+          Version: 1.2.0
+
+    Library Extensions:
+
+      Library Extensions: 
+
+Printers:
+
+      Status: The printers list is empty. To add printers, choose Apple menu > System Preferences…, click Printers & Scanners, and then click Add (+).
+      CUPS Version: 2.2.0 (cups-450)
+
+SATA/SATA Express:
+
+    Intel ICH8-M AHCI:
+
+      Vendor: Intel
+      Product: ICH8-M AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Physical Interconnect: SATA
+      Description: AHCI Version 1.10 Supported
+
+        VBOX HARDDISK:
+
+          Capacity: 84,83 GB (84.825.604.096 bytes)
+          Model: VBOX HARDDISK                           
+          Revision: 1,000000
+          Native Command Queuing: Yes
+          Queue Depth: 32
+          Removable Media: No
+          Detachable Drive: No
+          BSD Name: disk0
+          Medium Type: Rotational
+          Partition Map Type: GPT (GUID Partition Table)
+
+    Intel ICH8-M AHCI:
+
+      Vendor: Intel
+      Product: ICH8-M AHCI
+      Link Speed: 3 Gigabit
+      Negotiated Link Speed: 3 Gigabit
+      Physical Interconnect: SATA
+      Description: AHCI Version 1.10 Supported
+
+        VBOX CD-ROM:
+
+          Model: VBOX CD-ROM                             
+          Revision: 1,000000
+          Native Command Queuing: No
+          Detachable Drive: No
+          Power Off: No
+          Async Notification: No
+
+Software:
+
+    System Software Overview:
+
+      System Version: macOS 10.12.2 (16C67)
+      Kernel Version: Darwin 16.3.0
+      Time since boot: 10 minutes
+
+Thunderbolt:
+
+      Thunderbolt: No hardware was found.
+
+USB:
+
+    USB Bus:
+
+      Host Controller Driver: AppleUSBOHCIPCI
+      PCI Device ID: 0x003f 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x106b 
+
+        USB Tablet:
+
+          Product ID: 0x0021
+          Vendor ID: 0x80ee
+          Version: 1.00
+          Speed: Up to 12 Mb/sec
+          Manufacturer: VirtualBox
+          Location ID: 0x9f200000 / 2
+          Current Available (mA): 500
+          Current Required (mA): 100
+          Extra Operating Current (mA): 0
+
+        USB Keyboard:
+
+          Product ID: 0x0010
+          Vendor ID: 0x80ee
+          Version: 1.00
+          Speed: Up to 12 Mb/sec
+          Manufacturer: VirtualBox
+          Location ID: 0x9f100000 / 1
+          Current Available (mA): 500
+          Current Required (mA): 100
+          Extra Operating Current (mA): 0
+
+    USB 2.0 Bus:
+
+      Host Controller Driver: AppleUSBEHCIPCI
+      PCI Device ID: 0x265c 
+      PCI Revision ID: 0x0000 
+      PCI Vendor ID: 0x8086 
+
+Wi-Fi:
+
+      Software Versions:
+          CoreWLAN: 11.0 (1200.25.1)
+          CoreWLANKit: 12.0 (1200.25.1)
+          Menu Extra: 12.0 (1200.41)
+          System Information: 12.0 (1200.3)
+          IO80211 Family: 12.0 (1200.12.2)
+          Diagnostics: 7.0 (700.5)
+          AirPort Utility: 6.3.7 (637.5)
+
+
