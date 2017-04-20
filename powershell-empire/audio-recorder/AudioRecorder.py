@@ -33,7 +33,7 @@ class Module:
             # list of any references/other comments
             'Comments': [
                 'comment',
-                'https://github.com/hackingscool/expert/Start-AudioRecorder.ps1'
+                'https://github.com/HackingScool/expert/tree/master/powershell-empire/audio-recorder'
             ]
         }
 
